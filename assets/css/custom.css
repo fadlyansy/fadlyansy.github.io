@@ -1,12 +1,16 @@
 /* made by fadly */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 body{
     /* background-color: #F7F8F8; */
-    background-color: #000;
-    /* color: ##ABABAB; */
-    font-family: 'Inter', sans-serif;
+    background-color: #F2F6FF;
+    font-family: 'Lato', -apple-system, sans-serif;
+    /* font-family: 'Lora', Georgia, 'Times New Roman', Times, serif; */
+
     height:100%;
 }
 
@@ -27,7 +31,7 @@ body{
 .title-section{
   font-size: 24pt;
   font-weight: 700;
-  color: #eee
+  color: #3F3F3F
 }
 .fd-color-primary{
   color: #E9715A;
@@ -40,19 +44,19 @@ body{
 
 .fd-intro{
   /* background-color: #F7F8F8; */
-  background-color: #000;
-  color: #eee;
+  background-color: #F2F6FF;
+  color: #3F3F3F;
   width: auto;
   height: 900px;
 }
 
 .title-intro{
-  color: #eee
+  color: #3F3F3F;
   font-size: 32pt;
   font-weight: 600;
   margin-top: 6em;
   line-height: 200%;
-  /* font-family: 'Noto Serif SC', serif; */
+  font-family: 'Lora', Georgia, 'Times New Roman', Times, serif;
 }
 .subtitle-intro{
   margin-top: 2em;
@@ -83,7 +87,7 @@ body{
 
 .title-journal{
   font-size: 18pt;
-  color: #eee;
+  color: #3F3F3F;
   font-weight: 700;
 
 }
@@ -104,7 +108,7 @@ body{
 }
 
 .navbar-dark .navbar-nav .nav-link{
-  color: #eee!important;
+  color: #3F3F3F!important;
 }
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
   color: #E9715A!important;
@@ -134,7 +138,7 @@ a{
 }
 
 .footer-link a:hover{
-  color: #eee
+  color: #3F3F3F
 }
 
 /* ***************** */
