@@ -125,7 +125,7 @@ a{
   width: 100%;
   text-align: center;
   display: inline;
-  border-bottom: 1px solid #212121; 
+  border-bottom: 1px solid #E6E5F1; 
 }
 
 .fd-border-line-md{
@@ -148,7 +148,16 @@ a{
   font-size: 18px;
   line-height: 220%;
 }
-
+.copyright-fadly a{
+  color: #9DA2A9 !important
+}
+.journal-title a{
+  color: #3F3F3F;
+  font-size: 22px;
+}
+.journal-title span{
+  color: #BFBFBF
+}
 
 /* ***************** */
 
