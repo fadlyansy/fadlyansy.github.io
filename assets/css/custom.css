@@ -7,7 +7,7 @@
 
 body{
     /* background-color: #F7F8F8; */
-    background-color: #F2F6FF;
+    background-color: #fff;
     font-family: 'Lato', -apple-system, sans-serif;
     /* font-family: 'Lora', Georgia, 'Times New Roman', Times, serif; */
 
@@ -43,8 +43,7 @@ body{
 }
 
 .fd-intro{
-  /* background-color: #F7F8F8; */
-  background-color: #F2F6FF;
+  background-color: #fff;
   color: #3F3F3F;
   width: auto;
   height: 900px;
