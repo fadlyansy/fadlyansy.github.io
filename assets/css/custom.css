@@ -7,7 +7,7 @@
 
 body{
     /* background-color: #F7F8F8; */
-    background-color: #000;
+    background-color: #fff;
     font-family: 'DM Sans', -apple-system, sans-serif;
     /* font-family: 'Lora', Georgia, 'Times New Roman', Times, serif; */
 
@@ -32,7 +32,7 @@ body{
 .title-section{
   font-size: 24pt;
   font-weight: 700;
-  color: #FFFFFF
+  color: #808080
 }
 .fd-color-primary{
   color: #E9715A;
@@ -44,14 +44,14 @@ body{
 }
 
 .fd-intro{
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #808080;
   width: auto;
   height: 900px;
 }
 
 .title-intro{
-  color: #fff;
+  color: #000;
   font-size: 38pt;
   font-weight: 800;
   margin-top: 3em;
@@ -73,7 +73,7 @@ body{
   transition: all 0.3s ease-in-out !important
 } */
 .subtitle-intro a{
-  color: rgba(255,255,255,0.5) !important;
+  color: rgba(0,0,0) !important;
   font-size: 18pt;
 
 }
@@ -133,7 +133,7 @@ a{
   width: 100%;
   text-align: center;
   display: inline;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.10)
+  border-bottom: 1px solid rgba(0, 0, 0, 0.10)
 }
 
 .fd-border-line-md{
@@ -153,7 +153,7 @@ a{
 }
 
 .title-p{
-  color: rgba(255, 255, 255, 0.50);
+  color: rgba(0, 0, 0, 0.50);
   font-size: 18pt;
   line-height: 220%;
 }
