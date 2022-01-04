@@ -1,14 +1,31 @@
-/* made by fadly */
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@font-face {
+  font-family: "SuisseIntl";
+  src: url("assets/webfonts/SuisseIntl-Thin.woff") local('SuisseIntl-Thin') format('woff');
+  font-weight: thin;
+}
+
+@font-face {
+  font-family: "SuisseIntl";
+  src: url("assets/webfonts/SuisseIntl-Light.woff") local('SuisseIntl-Thin') format('woff');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "SuisseIntl";
+  src: url("assets/webfonts/SuisseIntl-Regular.woff") local('SuisseIntl-Thin') format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "SuisseIntl";
+  src: url("assets/webfonts/SuisseIntl-Bold.woff") local('SuisseIntl-Thin') format('woff');
+  font-weight: 900;
+}
 
 body{
     /* background-color: #F7F8F8; */
     background-color: #fff;
-    font-family: 'DM Sans', -apple-system, sans-serif;
+    font-family: 'SuisseIntl', Arial, -apple-system, sans-serif;
     /* font-family: 'Lora', Georgia, 'Times New Roman', Times, serif; */
 
     height:100%;
@@ -51,11 +68,11 @@ body{
 }
 
 .title-intro{
-  color: #000;
+  color: #0D0C22;
   font-size: 38pt;
   font-weight: 800;
   margin-top: 3em;
-  line-height: 200%;
+  line-height: 140%;
  
 }
 .subtitle-intro{
@@ -110,7 +127,9 @@ body{
 .img-intro img.envelop{
   width: 28px;
 }
-
+.bubble{
+  width: 28px;
+}
 .fd-journal{
 
 }
@@ -141,24 +160,30 @@ a{
 }
 
 .copyright-fadly{
-  color: #9DA2A9
+  color: rgba(13, 12, 34, 0.6) !important;
 }
 
 .footer-link a{
-  color: #9DA2A9
+  color: rgba(13, 12, 34, 0.6) !important;
 }
 
 .footer-link a:hover{
-  color: #3F3F3F
+  color: rgba(13, 12, 34) !important;
 }
 
 .title-p{
-  color: rgba(0, 0, 0, 0.50);
+  color: rgba(13, 12, 34, 0.6);
   font-size: 18pt;
   line-height: 220%;
 }
+.title-p a{
+  color: rgba(13, 12, 34, 0.6) !important
+}
+.title-p a:hover{
+  color: #0D0C22 !important
+}
 .copyright-fadly a{
-  color: #9DA2A9 !important
+  color: rgba(13, 12, 34, 0.6) !important;
 }
 .journal-title a{
   color: #3F3F3F;
