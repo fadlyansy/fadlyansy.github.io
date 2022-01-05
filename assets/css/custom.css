@@ -1,15 +1,15 @@
-/* @font-face {
+@font-face {
   font-family: "SuisseIntl";
   src: url("assets/webfonts/SuisseIntl-Thin.woff") local('SuisseIntl-Thin') format('woff');
   font-weight: 100;
-} */
+}
 
 @font-face {
   font-family: "SuisseIntl";
   src: url("assets/webfonts/SuisseIntl-Light.woff") local('SuisseIntl-Thin') format('woff');
   font-weight: 200;
 }
-/* 
+
 @font-face {
   font-family: "SuisseIntl";
   src: url("assets/webfonts/SuisseIntl-Regular.woff") local('SuisseIntl-Thin') format('woff');
@@ -20,12 +20,12 @@
   font-family: "SuisseIntl";
   src: url("assets/webfonts/SuisseIntl-Bold.woff") local('SuisseIntl-Thin') format('woff');
   font-weight: 400;
-} */
+}
 
 body{
     /* background-color: #F7F8F8; */
     background-color: #fff;
-    font-family: 'SuisseIntl', Arial, -apple-system, sans-serif;
+    font-family: 'SuisseIntl-Thin', Arial, -apple-system, sans-serif;
     font-weight: 200;
     /* font-family: 'Lora', Georgia, 'Times New Roman', Times, serif; */
 
@@ -72,7 +72,7 @@ body{
   color: #0D0C22;
   font-size: 80px;
   font-weight: 200;
-  margin-top: 1.2em;
+  margin-top: 1em;
   line-height: 140%;
  
 }
@@ -175,7 +175,7 @@ a{
 .title-p{
   color: rgba(13, 12, 34, 0.6);
   font-size: 18pt;
-  line-height: 220%;
+  margin: 1em 0em 2em 0;
 }
 .title-p a{
   color: rgba(13, 12, 34, 0.6) !important
