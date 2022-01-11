@@ -202,10 +202,16 @@ a{
   }
 }
 
-@media only screen and (min-width: 960px) {
-    /* styles for browsers larger than 960px; */
+@media only screen and (max-width: 960px) {
+    
     .fd-title{
         margin: 20rem;
+    }
+    .fd-journal{
+      margin-top: 20rem!important;
+    }
+    .fd-border-line{
+      margin-top: 20rem!important;
     }
 }
 @media only screen and (min-width: 1440px) {
