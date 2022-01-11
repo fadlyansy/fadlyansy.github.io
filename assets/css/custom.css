@@ -48,9 +48,16 @@ body{
     
 }
 .title-section{
-  font-size: 24pt;
-  font-weight: 700;
-  color: #808080
+  font-size: 40px;
+  color: #0D0C22
+}
+.title-link a{
+  font-size: 18pt;
+  color: #0D0C22 !important
+}
+.subtitle-section{
+  font-size: 28px;
+  color: rgba(13, 12, 34, 0.6)
 }
 .fd-color-primary{
   color: #E9715A;
@@ -116,8 +123,8 @@ body{
 
 .title-journal{
   font-size: 18pt;
-  color: #3F3F3F;
-  font-weight: 700;
+  color: #0D0C22;
+  font-family: 'SuisseIntl'
 
 }
 
@@ -176,9 +183,11 @@ a{
   color: rgba(13, 12, 34, 0.6);
   font-size: 18pt;
   margin: 1em 0em 2em 0;
+  line-height: 200%
 }
 .title-p a{
-  color: rgba(13, 12, 34, 0.6) !important
+  color: rgba(13, 12, 34, 0.6) !important;
+  font-family: 'SuisseIntl'
 }
 .title-p a:hover{
   color: #0D0C22 !important
@@ -205,6 +214,31 @@ a{
 .socmed-title a:hover{
   color: #23272b
 }
+.footer .talk{
+  font-size: 30px;
+}
+.footer .mail a{
+  color: #0D0C22;
+  font-family: 'SuisseIntl';
+  font-size: 28px;
+}
+
+.footer .find-me{
+  color: #0D0C22;
+  float: left;
+  margin-right: 10px;
+  margin-top: 8px;
+  font-size: 30px;
+}
+
+.footer .link a{
+  color: #0D0C22;
+  font-family: 'SuisseIntl';
+  font-size: 28px;
+
+}
+
+
 
 /* ***************** */
 
@@ -224,6 +258,9 @@ a{
     }
     .fd-border-line{
       margin-top: 20rem!important;
+    }
+    .footer .find-me{
+      float: none;
     }
 }
 @media only screen and (min-width: 1440px) {
