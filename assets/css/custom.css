@@ -193,6 +193,18 @@ a{
 .journal-title span{
   color: #BFBFBF
 }
+.socmed-title{
+  float:left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  font-size: 28px;
+}
+.socmed-title a{
+  color: #0D0C22
+}
+.socmed-title a:hover{
+  color: #23272b
+}
 
 /* ***************** */
 
