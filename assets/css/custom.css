@@ -69,10 +69,10 @@ body{
 }
 
 .fd-intro{
-  background-color: #fff;
   color: #808080;
   width: auto;
   height: 900px;
+  /* background-color: white; */
 }
 
 .title-intro{
