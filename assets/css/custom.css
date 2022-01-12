@@ -90,6 +90,15 @@ body{
   text-decoration: underline;
 
 }
+.gear{
+  background: url("/assets/images/bg_gear.svg") no-repeat;
+  background-size: auto;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+}
 /* .color-imp{
   color: rgba(255,255,255,0.5) !important;
 }
@@ -260,6 +269,11 @@ a{
     }
     .footer .find-me{
       float: none;
+    }
+    .gear{
+      /* display: none; */
+      width: 0;
+      height: 0;
     }
 }
 @media only screen and (min-width: 1440px) {
