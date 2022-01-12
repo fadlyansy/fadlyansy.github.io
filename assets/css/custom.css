@@ -215,26 +215,25 @@ a{
   color: #23272b
 }
 .footer .talk{
-  font-size: 30px;
+  font-size: 50px;
 }
 .footer .mail a{
   color: #0D0C22;
   font-family: 'SuisseIntl';
-  font-size: 28px;
+  font-size: 48px;
 }
 
 .footer .find-me{
   color: #0D0C22;
   float: left;
   margin-right: 10px;
-  margin-top: 8px;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .footer .link a{
   color: #0D0C22;
   font-family: 'SuisseIntl';
-  font-size: 28px;
+  font-size: 48px;
 
 }
 
