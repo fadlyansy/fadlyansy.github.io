@@ -249,7 +249,10 @@ a{
   font-size: 48px;
 
 }
-
+.envelope-footer span img{
+  width: 56px; 
+  margin: 0px 5px 0 10px
+}
 
 
 /* ***************** */
@@ -278,6 +281,31 @@ a{
       /* display: none; */
       width: 0;
       height: 0;
+    }
+    .title-intro{
+      font-size: 40px;
+    }
+    .title-intro img{
+      width: 60px;
+    }
+    .title-p{
+      font-size: 20px;
+    }
+    .fd-intro{
+      height: 400px;
+    }
+    .footer .find-me{
+      font-size: 30px;
+    }
+    
+    .footer .link a{
+      font-size: 28px;
+    }
+    .envelope-footer span img{
+      margin: 16px 5px 0 10px;
+    }
+    .subtitle-section{
+      font-size: 20px;
     }
 }
 @media only screen and (min-width: 1440px) {
