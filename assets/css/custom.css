@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 body{
-    /* background-color: #F7F8F8; */
     background-color: #fff;
     font-family: 'Inter', sans-serif, -apple-system ;
     font-weight: 200;
-    /* font-family: 'Lora', Georgia, 'Times New Roman', Times, serif; */
-
     height:100%;
+    background-image: url("../../assets/images/background/bg-shape.svg");
+    background-repeat: repeat;
 }
 
 .fd-head-title{
@@ -26,8 +25,9 @@ body{
     
 }
 .title-section{
-  font-size: 40px;
-  color: #0D0C22
+  font-size: 32px;
+  color: #0D0C22;
+  text-align: center;
 }
 .title-link a{
   font-size: 18pt;
@@ -56,21 +56,53 @@ body{
   height: 800px;
   /* background-color: white; */
 }
+.photo-me img{
+  width: 280px;
+  margin-top: 80px;
+  margin-left: 85px;
+}
 
 .title-intro{
   color: #0D0C22;
-  font-size: 68px;
-  font-weight: 700;
+  font-size: 74px;
+  font-weight: 800;
   margin-top: 1em;
   line-height: 140%;
  
 }
+.title-intro #eyes{
+  width: 78px;
+}
+.title-intro #ideas{
+  width: 78px;
+}
 .subtitle-intro{
-  margin-top: 2em;
-  /* font-size: 16pt; */
-  font-weight: 400;
-  text-decoration: underline;
+  font-size: 22px;
+  text-align: center;
 
+}
+.btn-custom-aj{
+  color: #1F243C;
+  font-weight: 600;
+  background-color: white;
+  border-color: #1F243C;
+  border-radius: 60px;
+  padding: 10px 30px;
+}
+.btn-custom-aj:hover{
+  color: white;
+  background-color: #1F243C
+}
+.nav-item a i{
+  font-size: 20px;
+  color: #1F243C!important;
+  padding: 2px;
+}
+.navitem a i:hover{
+  color: #726F85
+}
+.navbar-dark .navbar-brand{
+  color: #1F243C !important;
 }
 /* .gear{
   background: url("/assets/images/bg_gear.svg") no-repeat;
