@@ -108,9 +108,15 @@ body{
   width: 100%;
   height: 520px;
   text-align: right;
+  transition: all .2s ease-in-out
+}
+.card-project:hover{
+  box-shadow: 0 5px 25px 0 rgba(200, 206, 212, 0.25);
+  transform: scale(1.01);
+  background-color: #f2f2f2
 }
 .subtitle-intro{
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
   color: #808080;
 }
@@ -317,6 +323,49 @@ a{
   }
   .photo-me{
     display: none;
+  }
+  .card-project{
+    height: 360px;
+  }
+  .image-project img{
+    width: 400px;
+    position: relative;
+    bottom: -68px;
+    left: -15px;
+  }
+  .section-title-project{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .fd-header{
+    position: relative!important;
+  }
+  .photo-me{
+    display: none;
+  }
+  .card-project{
+    height: 600px;
+    width: auto;
+  }
+  .image-project img{
+    width: 370px;
+    position: relative;
+    bottom: -68px;
+    left: -15px;
+  }
+  .section-title-project{
+    font-size: 24px;
+    text-align: center;
+  }
+  .section-subtitle-project{
+  }
+  .wrapper-section-title{
+    text-align: center;
+  }
+  .section-project div{
+    top: auto;
   }
 }
 
