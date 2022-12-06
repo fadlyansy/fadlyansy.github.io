@@ -9,6 +9,15 @@ body{
     background-repeat: no-repeat;
 }
 
+.body-portfolio{
+  background-color: #FAF9F7;
+  font-family: 'Inter', sans-serif, -apple-system ;
+  font-weight: 200;
+  height:100%;
+  background-image: url("../../assets/images/bg-shape-transparent.svg");
+  background-repeat: no-repeat;
+}
+
 .fd-head-title{
   margin-left: -20px;
   font-size: 32pt;
@@ -323,6 +332,33 @@ a{
   flex-direction: row
 }
 
+.logo-lm{
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+.img-lm-1{
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+.p-portfolio{
+  line-height: 200%;
+}
+.p-portfolio b{
+  font-weight: 700;
+}
+.p-title{
+  font-weight: 700;
+  color: #1F243C;
+}
+.p-subtitle{
+  font-weight: 200;
+  color: #1F243C;
+}
+.p-btn-back{
+  color: #1F243C!important;
+}
 /* ***************** */
 
 @media only screen and (max-width: 990px) {
