@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 body{
-    background-color: #FAF9F7;
+    background-color: #fff;
     font-family: 'Inter', sans-serif, -apple-system ;
     font-weight: 200;
     height:100%;
@@ -10,7 +10,7 @@ body{
 }
 
 .body-portfolio{
-  background-color: #FAF9F7;
+  background-color: #fff;
   font-family: 'Inter', sans-serif, -apple-system ;
   font-weight: 200;
   height:100%;
