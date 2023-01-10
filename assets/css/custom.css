@@ -71,6 +71,9 @@ body{
   font-size: 36px;
   color: #1F243C;
 }
+.section-subtitle-project{
+  color: #1F243C;
+}
 .fd-color-primary{
   /* color: #E9715A; */
 }
@@ -403,8 +406,7 @@ a{
     font-size: 24px;
     text-align: center;
   }
-  .section-subtitle-project{
-  }
+  
   .wrapper-section-title{
     text-align: center;
   }
