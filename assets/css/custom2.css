@@ -38,6 +38,11 @@ body{
   background-image: url("../../assets/images/bg-shape-transparent.svg");
   background-repeat: no-repeat;
 }
+.bg-gradient{
+  background-image: url("../../assets/images/bg-gradient.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom; 
+}
 
 .fd-head-title{
   margin-left: -20px;
