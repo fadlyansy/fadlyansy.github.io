@@ -474,10 +474,9 @@ a{
 .video-lottie{
   text-align: center;
 }
-.video-height{
 
-  width: 100%;
-  height: 450px;
+.video-height{
+  height: 450px!important;
 }
 
 /* ***************** */
