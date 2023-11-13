@@ -466,6 +466,11 @@ a{
 .ttd-fadly{
   width: 40px;
 }
+.imagemodal{
+  width: 120px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
 /* ***************** */
 
