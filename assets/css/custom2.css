@@ -20,6 +20,7 @@
 b{
   font-weight: 400;
 }
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 body{
     background-color: #ffffff;
@@ -28,6 +29,9 @@ body{
     height:100%;
     background-position: right 0 top 0;
     background-repeat: no-repeat;
+}
+body,html{
+  height: 100%!important;
 }
 
 .body-portfolio{
@@ -429,6 +433,10 @@ a{
 .thumbnail-company{
   width: 70px;
 }
+.thumbnail-illustration{
+  width: 300px;
+  height: auto;
+}
 .container-company{
   /* margin: auto; */
 }
@@ -478,6 +486,14 @@ a{
 .video-height{
   height: 450px!important;
 }
+
+.headline-title{
+  color: #141413
+}
+.headline-p{
+  color: #656363;
+}
+
 
 /* ***************** */
 
