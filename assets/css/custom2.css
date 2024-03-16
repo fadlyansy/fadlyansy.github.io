@@ -493,6 +493,9 @@ a{
 .headline-p{
   color: #656363;
 }
+.btn-custom-visit{
+  min-width: 350px;
+}
 
 
 /* ***************** */
