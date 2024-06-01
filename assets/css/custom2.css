@@ -468,8 +468,21 @@ a{
 
 .navbar-item-custom{
   margin: 1em;
-  color: #151A20 !important;
+  color: #a1a1a1;
   font-size: 18px;
+}
+.navbar-item-custom.selected{
+  background: #eaeaea  ;
+  color: #353849;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 400;
+  transition: all .2s ease-in-out
+}
+.navbar-item-custom:hover{
+  color: #353849;
+  font-weight: 400;
+  transition: all .2s ease-in-out
 }
 .ttd-fadly{
   width: 40px;
