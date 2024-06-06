@@ -43,9 +43,12 @@ body,html{
   background-repeat: no-repeat;
 }
 .bg-gradient{
-  background-image: url("../../assets/images/bg-gradient.jpg");
+  /* background-image: url("../../assets/images/bg-gradient.jpg"); */
   background-repeat: no-repeat;
   background-position: right bottom; 
+}
+.bg-grey{
+  background-color: #f5f5f5
 }
 
 .fd-head-title{
@@ -131,7 +134,7 @@ body,html{
 
 .title-intro{
   color: #353849;
-  font-size: 68px;
+  font-size: 80px;
   font-weight: 400;
   margin-top: 1.5em;
   line-height: 140%;
@@ -472,9 +475,10 @@ a{
   font-size: 18px;
 }
 .navbar-item-custom.selected{
-  background: #eaeaea  ;
+  background: #fafafa;
+  border: 1px solid #eaeaea;
   color: #353849;
-  padding: 8px;
+  padding: 10px 20px;
   border-radius: 8px;
   font-weight: 400;
   transition: all .2s ease-in-out
@@ -510,8 +514,56 @@ a{
   min-width: 350px;
 }
 
+.btn-tab-new{
+  font-size: 20px;
+  color: #8F919D;
+  padding: 10px 20px;
+}
+.nav-link.active,
+  .nav-item.show .nav-link {
+    color: #353849!important;
+  }
+.nav-link:focus, .nav-link:hover{
+  color: #000!important;
+}
 
-/* ***************** */
+/* ****************************************************************************************************************************** */
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+.nav.nav-pills .active a{
+  color: red!important;
+}
+
+/* ****************************************************************************************************************************** */
 
 @media only screen and (max-width: 990px) {
   .fd-header{

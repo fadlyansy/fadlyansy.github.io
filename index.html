@@ -26,13 +26,15 @@
     <meta name="twitter:creator" content="@fadlyansyahh">
     <meta name="twitter:title" content="Fadlyansyah - Product Designer, UI UX Designer">
     <meta name="twitter:description" content="Fadly is a Product Designer, UI UX based in Jakarta, Indonesia.">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/custom2.css">
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 <!-- SEO -->
 <head>
@@ -91,7 +93,7 @@
         <div class="row">
           <div class="col-md-12">
             <h1 class="title-intro">
-              Hi <span><img src="assets/images/eyes_1f440.png" alt="Eyes" id="eyes"></span>, I'm Fadly a Product Designer <span><img src="assets/images/seedling_1f331.png" alt="Eyes" id="eyes"></span>
+              Hi <span><img src="assets/images/eyes_1f440.png" alt="Eyes" id="eyes"></span> I'm Fadly a Product Designer (UI/UX) <span><img src="assets/images/seedling_1f331.png" alt="plant" id="eyes"></span>
               Currently at HappyFresh <img src="assets/images/happyfresh.png" alt="HappyFresh" id="eyes"></span> crafting seamless groceries <img src="assets/images/shopping-cart_1f6d2.png" alt="Shopping Cart" id="eyes">
               experiences with fingertip <span><img src="assets/images/sparkles_2728.png" alt="Sparkles" id="eyes"></span>
             </h1>
@@ -111,229 +113,209 @@
 
     </div>
 
-    <!-- HappyFresh Start -->
-    <div class="container fd-journal"> 
-      <div class="row">
-        <div class="col-md-1 container-company">
-          <img src="assets/images/HF-Thumbnail.png" alt="HappyFresh" class="thumbnail-company">
-        </div>
-        <div class="col-md-11">
-          <h1 class="title-section">HappyFresh</h1>
-          <p class="subtitle-intro">Sr. Product Designer &nbsp; ✽ &nbsp; Feb 2023 - Now</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p class="subtitle-intro">HappyFresh is Indonesia’s leading online grocery delivery service. Shop from over 600 supermarkets & fresh markets across Indonesia’s major cities. <br><br>I started working here at HappyFresh after HappyFresh closed in Thailand and Malaysia and focused on developing profitability in Indonesia. I joined the Customer Experience team to increase the number of daily orders and grow user retention by making the user experience better and making it easier for users to groceries 
-            <br><br>Some of design i handled: Supermarket Loyalty &nbsp; ✽ &nbsp; Purchase with Purchase &nbsp; ✽ &nbsp; Surfacing Payment Promo &nbsp; ✽ &nbsp; Checkout Experience and many more… </p>
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-md-6">
-          <a href="" class="link-portfolio" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            <div class="thumbnail-portfolio">
-              <img src="assets/images/portfolio/hf-globalhome/Thumbnail.jpg" alt="" class="w-100 rounded ">
-              <p class="title-portfolio mt-3">Global Home Enhancement</p>
-              <p class="subtitle-portfolio">5 mins to read &nbsp; ✽ &nbsp; 2023</p>
-              <p class="subtitle-portfolio">View Case Study 👉🏻</p>
+    <div class="container">
+      <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active btn-tab-new" id="happyfresh-tab" data-bs-toggle="tab" data-bs-target="#happyfresh" type="button" role="tab" aria-controls="happyfresh" aria-selected="true">HappyFresh</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link btn-tab-new" id="kitabeli-tab" data-bs-toggle="tab" data-bs-target="#kitabeli" type="button" role="tab" aria-controls="kitabeli" aria-selected="false">KitaBeli</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link btn-tab-new" id="bci-tab" data-bs-toggle="tab" data-bs-target="#bci" type="button" role="tab" aria-controls="bci" aria-selected="false">BCI Central</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link btn-tab-new" id="aido-tab" data-bs-toggle="tab" data-bs-target="#aido" type="button" role="tab" aria-controls="aido" aria-selected="false">Aido Health</button>
+        </li>
+
+        <!-- <li class="nav-item" role="presentation">
+          <button class="nav-link btn-tab-new" id="other-tab" data-bs-toggle="tab" data-bs-target="#other" type="button" role="tab" aria-controls="other" aria-selected="false">Others</button>
+        </li> -->
+      </ul>
+      <div class="tab-content" id="myTabContent">
+
+         <!-- HappyFresh Start -->
+        <div class="tab-pane fade show active" id="happyfresh" role="tabpanel" aria-labelledby="happyfresh-tab">
+          <div class="container fd-journal"> 
+            <div class="row">
+              <div class="col-md-1 container-company">
+                <img src="assets/images/HF-Thumbnail.png" alt="HappyFresh" class="thumbnail-company">
+              </div>
+              <div class="col-md-11">
+                <h1 class="title-section">HappyFresh</h1>
+                <p class="subtitle-intro">Sr. Product Designer &nbsp; ✽ &nbsp; Feb 2023 - Now</p>
+              </div>
             </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a href="" class="link-portfolio" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            <div class="thumbnail-portfolio">
-              <img src="assets/images/portfolio/hf-si/Thumbnail-default.jpg" alt="" class="w-100 rounded ">
-              <p class="title-portfolio mt-3">Supermarket Loyalty Deals</p>
-              <p class="subtitle-portfolio">3.5 mins to read &nbsp; ✽ &nbsp; 2023</p>
-              <p class="subtitle-portfolio">Private 🔒</p>
+            <div class="row">
+              <div class="col-md-12">
+                <p class="subtitle-intro">HappyFresh is Indonesia’s leading online grocery delivery service. Shop from over 600 supermarkets & fresh markets across Indonesia’s major cities. <br><br>I started working here at HappyFresh after HappyFresh closed in Thailand and Malaysia and focused on developing profitability in Indonesia. I joined the Customer Experience team to increase the number of daily orders and grow user retention by making the user experience better and making it easier for users to groceries 
+                  <br><br>Some of design i handled: Supermarket Loyalty &nbsp; ✽ &nbsp; Purchase with Purchase &nbsp; ✽ &nbsp; Surfacing Payment Promo &nbsp; ✽ &nbsp; Checkout Experience and many more… </p>
+              </div>
             </div>
-          </a>
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <a href="" class="link-portfolio" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                  <div class="thumbnail-portfolio">
+                    <img src="assets/images/portfolio/hf-globalhome/Thumbnail.jpg" alt="" class="w-100 rounded ">
+                    <p class="title-portfolio mt-3">Global Home Enhancement</p>
+                    <p class="subtitle-portfolio">5 mins to read &nbsp; ✽ &nbsp; 2023</p>
+                    <p class="subtitle-portfolio">View Case Study 👉🏻</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="" class="link-portfolio" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                  <div class="thumbnail-portfolio">
+                    <img src="assets/images/portfolio/hf-si/Thumbnail-default.jpg" alt="" class="w-100 rounded ">
+                    <p class="title-portfolio mt-3">Supermarket Loyalty Deals</p>
+                    <p class="subtitle-portfolio">3.5 mins to read &nbsp; ✽ &nbsp; 2023</p>
+                    <p class="subtitle-portfolio">Private 🔒</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div> 
         </div>
-      </div>
-    </div> 
+         <!-- HappyFresh End -->
 
-    <!-- The Modal -->
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Private Project</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body text-center">
-        <img src="assets/images/memo_1f4dd.png" alt="" class="rounded imagemodal">
-        <p class="text-center subtitle-intro">
-          Appreciate your interest in this project<br>
-          For access, kindly reach out to me via email at <a href="mailto:fadlyansy@gmail.com">fadlyansy@gmail.com</a><br>
-          Thanks! 
-        </p>
+          <!-- KitaBeli Start -->
+        <div class="tab-pane fade" id="kitabeli" role="tabpanel" aria-labelledby="kitabeli-tab">
+           <div class="tab-pane" id="2b">
+            <div class="container fd-journal"> 
+              <div class="row">
+                <div class="col-md-1 container-company">
+                  <img src="assets/images/kitabeli.png" alt="KitaBeli" class="thumbnail-company">
+                </div>
+                <div class="col-md-11">
+                  <h1 class="title-section">KitaBeli</h1>
+                  <p class="subtitle-intro">Sr. Product Designer &nbsp; ✽ &nbsp; Jun 2022 - Jan 2023</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="subtitle-intro">KitaBeli is a social commerce offering fast-moving consumer goods on its gamified platform with focusing in 2nd tier cities in Indonesia.<br><br>I worked in Acquisition & Activation team to increase number of user base and expanding Community Leader (Mitra) in KitaBeli and and engage in the end-to-end process start from product discovery, crystalizing problem into ideas, crafting user interface, make sure grooming with tech are delivered well, deep dive with data results (A/B) and monitor experiment works or not and improving decision making by learning from past experiment.<br><br>
+                    Some of design i handled: Customer and Community Leader Rewards &nbsp; ✽ &nbsp; User onboarding &nbsp; ✽ &nbsp; Gifting &nbsp; ✽ &nbsp; KitaBeli Design Systems</p>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-md-6">
+                  <a href="pages/kb-design-system/index.html" class="link-portfolio">
+                    <div class="thumbnail-portfolio">
+                      <img src="assets/images/portfolio/kb-ds/Thumbnail KitaBeli Design System.png" alt="" class="w-100 rounded ">
+                      <p class="title-portfolio mt-3">KitaBeli's Design System</p>
+                      <p class="subtitle-portfolio">8 mins to read &nbsp; ✽ &nbsp; 2022</p>
+                      <p class="subtitle-portfolio">View Case Study 👉🏻</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="pages/mitra-referral-reward-program/index.html" class="link-portfolio">
+                  <div class="thumbnail-portfolio">
+                    <img src="assets/images/portfolio/mitra-referral-reward-program/Thumbnail Mitra Referral Reward Program.png" alt="" class="w-100 rounded ">
+                    <p class="title-portfolio mt-3">Mitra Referral Rewards Program</p>
+                    <p class="subtitle-portfolio">10 mins to read &nbsp; ✽ &nbsp; 2022</p>
+                    <p class="subtitle-portfolio">View Case Study 👉🏻</p>
+                  </div>
+                  </a>
+                </div>
         
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-      </div>
-
-    </div>
-  </div>
-</div>
-    <!-- HappyFresh End -->
-
-    <!-- Divider Start -->
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-12 mb-2">
-          <hr>
-        </div>
-      </div>
-    </div>
-    <!-- Divider End -->
-
-    <!-- KitaBeli Start -->
-    <div class="container fd-journal"> 
-      <div class="row">
-        <div class="col-md-1 container-company">
-          <img src="assets/images/kitabeli.png" alt="KitaBeli" class="thumbnail-company">
-        </div>
-        <div class="col-md-11">
-          <h1 class="title-section">KitaBeli</h1>
-          <p class="subtitle-intro">Sr. Product Designer &nbsp; ✽ &nbsp; Jun 2022 - Jan 2023</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p class="subtitle-intro">KitaBeli is a social commerce offering fast-moving consumer goods on its gamified platform with focusing in 2nd tier cities in Indonesia.<br><br>I worked in Acquisition & Activation team to increase number of user base and expanding Community Leader (Mitra) in KitaBeli and and engage in the end-to-end process start from product discovery, crystalizing problem into ideas, crafting user interface, make sure grooming with tech are delivered well, deep dive with data results (A/B) and monitor experiment works or not and improving decision making by learning from past experiment.<br><br>
-            Some of design i handled: Customer and Community Leader Rewards &nbsp; ✽ &nbsp; User onboarding &nbsp; ✽ &nbsp; Gifting &nbsp; ✽ &nbsp; KitaBeli Design Systems</p>
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-md-6">
-          <a href="pages/kb-design-system/index.html" class="link-portfolio">
-            <div class="thumbnail-portfolio">
-              <img src="assets/images/portfolio/kb-ds/Thumbnail KitaBeli Design System.png" alt="" class="w-100 rounded ">
-              <p class="title-portfolio mt-3">KitaBeli's Design System</p>
-              <p class="subtitle-portfolio">8 mins to read &nbsp; ✽ &nbsp; 2022</p>
-              <p class="subtitle-portfolio">View Case Study 👉🏻</p>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a href="pages/mitra-referral-reward-program/index.html" class="link-portfolio">
-          <div class="thumbnail-portfolio">
-            <img src="assets/images/portfolio/mitra-referral-reward-program/Thumbnail Mitra Referral Reward Program.png" alt="" class="w-100 rounded ">
-            <p class="title-portfolio mt-3">Mitra Referral Rewards Program</p>
-            <p class="subtitle-portfolio">10 mins to read &nbsp; ✽ &nbsp; 2022</p>
-            <p class="subtitle-portfolio">View Case Study 👉🏻</p>
+              </div>
+            </div> 
           </div>
-          </a>
+        </div>
+         <!-- KitaBeli End -->
+
+          <!-- BCI Central Start -->
+        <div class="tab-pane fade" id="bci" role="tabpanel" aria-labelledby="bci-tab">
+            <div class="container fd-journal"> 
+              <div class="row">
+                <div class="col-md-1 container-company">
+                  <img src="assets/images/BCI.png" alt="BCI Central" class="thumbnail-company">
+                </div>
+                <div class="col-md-11">
+                  <h1 class="title-section">BCI Central</h1>
+                  <p class="subtitle-intro">Sr. Product Designer &nbsp; ✽ &nbsp; Sep 2020 - Jun 2022</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="subtitle-intro">
+                    BCI Central is a company based on Australia, New Zealand and Indonesia specializes in empowering sales success through the application of construction data.<br><br>
+        
+                    I worked here as first product designer to revamp LeadManager web & mobile app which has been using for around +10years. I started from scratch crafting a comprehensive design strategy before it’s fully adapt to customer, I took the initiative to enhance the workflow for both designers and engineers, conduct small research to knowing our competitor and user, and collaborate with stakeholder to improve user experience of app.
+                    <br><br>
+                    Some of design i handled: LeadManager App &nbsp; ✽ &nbsp; Anaytix &nbsp; ✽ &nbsp; BCI Central website improvement
+                  </p>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <a href="pages/construction-data-for-better-experience/index.html" class="link-portfolio">
+                  <div class="thumbnail-portfolio">
+                    <img src="assets/images/portfolio/lm-1.jpg" alt="" class="w-100 rounded ">
+                    <p class="title-portfolio mt-3">Construction Data For Better Experience</p>
+                    <p class="subtitle-portfolio">6 mins to read &nbsp; ✽ &nbsp; 2021</p>
+                    <p class="subtitle-portfolio">View Case Study 👉🏻</p>
+                  </div>
+                  </a>
+                </div>
+              </div>
+            </div> 
+        </div>
+           <!-- BCI Central End -->
+        
+        
+        <!-- Aido Health Start -->
+        <div class="tab-pane fade" id="aido" role="tabpanel" aria-labelledby="aido-tab">
+          <div class="tab-pane" id="4b">
+            <div class="container fd-journal"> 
+              <div class="row">
+                <div class="col-md-1 container-company">
+                  <img src="assets/images/portfolio/aido-app.png" alt="aido health" class="thumbnail-company">
+                </div>
+                <div class="col-md-11">
+                  <h1 class="title-section">aido health</h1>
+                  <p class="subtitle-intro">Product Designer &nbsp; ✽ &nbsp; Mar 2019 - Sep 2020</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="subtitle-intro">
+                    Aido Health is a sister company of Siloam Hospital Group that focuses on partnering with numerous hospitals to facilitate bookings for doctor, physiotherapy, nursing, and telemedicine home care services.<br><br>
+        
+                    I worked here on as first UX Designer and crafting home carem, telemedicine services from end to end, collaborating with product managers and engineers. I closely engaged with stakeholders, conducted benchmarking against direct and indirect competitors, and facilitated brainstorming sessions to develop the features we wanted to build
+                    <br><br>
+                    Some of design i handled: Homecare &nbsp; ✽ &nbsp; Telemedicine Feature &nbsp; ✽ &nbsp; Whole App Experiences
+                  </p>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <a href="pages/humanizing-teleconsultation/index.html" class="link-portfolio">
+                  <div class="thumbnail-portfolio">
+                    <img src="assets/images/portfolio/thumbnail-aido-humanizing.jpg" alt="Humanizing Teleconsultation" class="w-100 rounded ">
+                    <p class="title-portfolio mt-3">Humanizing Teleconsultation</p>
+                    <p class="subtitle-portfolio">6 mins to read &nbsp; ✽ &nbsp; 2020</p>
+                    <p class="subtitle-portfolio">View Case Study 👉🏻</p>
+                  </div>
+                  </a>
+                </div>
+              </div>
+            </div> 
+        </div>
+        </div>
+        <!-- Aido Health End -->
+
+
+        <!-- Other Tab Start -->
+        <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
+          Cooking Something
         </div>
 
-      </div>
-    </div> 
-    <!-- KitaBeli End -->
-
-    <!-- Divider Start -->
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-12 mb-2">
-          <hr>
-        </div>
+        <!-- Other Tab End -->
       </div>
     </div>
-    <!-- Divider End -->
-
-
-    <!-- BCI Central Start -->
-    <div class="container fd-journal"> 
-      <div class="row">
-        <div class="col-md-1 container-company">
-          <img src="assets/images/BCI.png" alt="BCI Central" class="thumbnail-company">
-        </div>
-        <div class="col-md-11">
-          <h1 class="title-section">BCI Central</h1>
-          <p class="subtitle-intro">Sr. Product Designer &nbsp; ✽ &nbsp; Sep 2020 - Jun 2022</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p class="subtitle-intro">
-            BCI Central is a company based on Australia, New Zealand and Indonesia specializes in empowering sales success through the application of construction data.<br><br>
-
-            I worked here as first product designer to revamp LeadManager web & mobile app which has been using for around +10years. I started from scratch crafting a comprehensive design strategy before it’s fully adapt to customer, I took the initiative to enhance the workflow for both designers and engineers, conduct small research to knowing our competitor and user, and collaborate with stakeholder to improve user experience of app.
-            <br><br>
-            Some of design i handled: LeadManager App &nbsp; ✽ &nbsp; Anaytix &nbsp; ✽ &nbsp; BCI Central website improvement
-          </p>
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-md-12">
-          <a href="pages/construction-data-for-better-experience/index.html" class="link-portfolio">
-          <div class="thumbnail-portfolio">
-            <img src="assets/images/portfolio/lm-1.jpg" alt="" class="w-100 rounded ">
-            <p class="title-portfolio mt-3">Construction Data For Better Experience</p>
-            <p class="subtitle-portfolio">6 mins to read &nbsp; ✽ &nbsp; 2021</p>
-            <p class="subtitle-portfolio">View Case Study 👉🏻</p>
-          </div>
-          </a>
-        </div>
-      </div>
-    </div> 
-    <!-- BCI Central End -->
-
-    <!-- Divider Start -->
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-12 mb-2">
-          <hr>
-        </div>
-      </div>
-    </div>
-    <!-- Divider End -->
-
-    <!-- aido health Start -->
-    <div class="container fd-journal"> 
-      <div class="row">
-        <div class="col-md-1 container-company">
-          <img src="assets/images/portfolio/aido-app.png" alt="aido health" class="thumbnail-company">
-        </div>
-        <div class="col-md-11">
-          <h1 class="title-section">aido health</h1>
-          <p class="subtitle-intro">Product Designer &nbsp; ✽ &nbsp; Mar 2019 - Sep 2020</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p class="subtitle-intro">
-            Aido Health is a sister company of Siloam Hospital Group that focuses on partnering with numerous hospitals to facilitate bookings for doctor, physiotherapy, nursing, and telemedicine home care services.<br><br>
-
-            I worked here on as first UX Designer and crafting home carem, telemedicine services from end to end, collaborating with product managers and engineers. I closely engaged with stakeholders, conducted benchmarking against direct and indirect competitors, and facilitated brainstorming sessions to develop the features we wanted to build
-            <br><br>
-            Some of design i handled: Homecare &nbsp; ✽ &nbsp; Telemedicine Feature &nbsp; ✽ &nbsp; Whole App Experiences
-          </p>
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-md-12">
-          <a href="pages/humanizing-teleconsultation/index.html" class="link-portfolio">
-          <div class="thumbnail-portfolio">
-            <img src="assets/images/portfolio/thumbnail-aido-humanizing.jpg" alt="Humanizing Teleconsultation" class="w-100 rounded ">
-            <p class="title-portfolio mt-3">Humanizing Teleconsultation</p>
-            <p class="subtitle-portfolio">6 mins to read &nbsp; ✽ &nbsp; 2020</p>
-            <p class="subtitle-portfolio">View Case Study 👉🏻</p>
-          </div>
-          </a>
-        </div>
-      </div>
-    </div> 
-
-    <!-- aido health End -->
-
-
+    
 
     <div class="container mt-5 mb-2" style="margin-top: 6em!important">
       <div class="row">
@@ -361,8 +343,11 @@
     <!-- <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
     <script src="//code.jquery.com/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script> -->
-    
-    <script src="assets/js/custom.js"></script>
+    <!-- <script src="assets/js/custom.js"></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
