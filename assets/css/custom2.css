@@ -123,7 +123,7 @@ body,html{
 .fd-intro{
   color: #808080;
   width: auto;
-  height: 750px;
+  height: 950px;
   /* background-color: white; */
 }
 .photo-me img{
@@ -521,11 +521,36 @@ a{
 }
 .nav-link.active,
   .nav-item.show .nav-link {
-    color: #353849!important;
+    color: #151A20!important;
+    text-decoration: underline;
   }
 .nav-link:focus, .nav-link:hover{
   color: #000!important;
 }
+
+.tab-custom{
+  font-size: 22px;
+}
+
+.nav-link{
+  color: #8F919D;
+}
+.section-experience #title{
+  font-size: 32px;
+  color: #151A20;
+}
+.section-experience #sub{
+  font-size: 22px;
+  color: #7F868E;
+}
+.nav-link{
+  padding: .5rem 2rem;
+}
+
+
+/* a{
+  text-decoration: none!important;
+} */
 
 /* ****************************************************************************************************************************** */
 
