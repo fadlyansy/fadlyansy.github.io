@@ -473,10 +473,10 @@ a{
   margin: 1em;
   color: #a1a1a1;
   font-size: 18px;
+  padding: 10px 20px;
 }
 .navbar-item-custom.selected{
   background: #fafafa;
-  border: 1px solid #eaeaea;
   color: #353849;
   padding: 10px 20px;
   border-radius: 8px;
@@ -550,6 +550,14 @@ a{
 
 a{
   text-decoration: none;
+}
+
+.btn-lets-talk{
+  max-width: 300px;
+  max-height: 45px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 14px;
 }
 
 /* ****************************************************************************************************************************** */
