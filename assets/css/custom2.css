@@ -2,9 +2,53 @@
 
 @font-face {
   font-family: "CabinetGrotesk";
-  src: url("../webfonts/CG/CabinetGrotesk-Regular.woff") format('woff');
+  src: url("../webfonts/Pretendard/Pretendard-ExtraLight.woff") format('woff');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url("../webfonts/Pretendard/Pretendard-Thin.woff") format('woff');
   font-weight: 200;
 }
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url("../webfonts/Pretendard/Pretendard-Light.woff") format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url("../webfonts/Pretendard/Pretendard-Regular.woff") format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url("../webfonts/Pretendard/Pretendard-Medium.woff") format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url("../webfonts/Pretendard/Pretendard-Bold.woff") format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url("../webfonts/Pretendard/Pretendard-ExtraBold.woff") format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url("../webfonts/Pretendard/Pretendard-Black.woff") format('woff');
+  font-weight: 700;
+}
+
+/* 
 
 @font-face {
   font-family: "CabinetGrotesk";
@@ -16,7 +60,7 @@
   font-family: "CabinetGrotesk";
   src: url("../webfonts/CG/CabinetGrotesk-Bold.woff") format('woff');
   font-weight: 600;
-}
+} */
 b{
   font-weight: 400;
 }
@@ -68,7 +112,7 @@ body,html{
 }
 .title-section{
   font-size: 36px;
-  color: #151A20;
+  color: #353849;
   text-align: left;
   font-weight: 400;
 }
@@ -123,7 +167,7 @@ body,html{
 .fd-intro{
   color: #808080;
   width: auto;
-  height: 950px;
+  height: 1000px;
   /* background-color: white; */
 }
 .photo-me img{
@@ -134,8 +178,8 @@ body,html{
 
 .title-intro{
   color: #353849;
-  font-size: 80px;
-  font-weight: 400;
+  font-size: 90px;
+  font-weight: 300;
   margin-top: 1.5em;
   line-height: 140%;
  
@@ -146,8 +190,13 @@ body,html{
 .subtitle-intro{
     font-size: 20px;
     color: #3D4C5E;
-    font-weight: 200;
+    font-weight: 100;
   }
+.subtitle-intro-alt{
+    font-size: 22px;
+    color: #3D4C5E;
+    font-weight: 300;
+}
 .card-project{
   background-color:#fff;
   border: #e8e8e8;
@@ -166,27 +215,27 @@ body,html{
 }
 
 .btn-custom-aj{
-  color: #151A20;
+  color: #353849;
   font-weight: 600;
   background-color: white;
-  border-color: #151A20;
+  border-color: #353849;
   border-radius: 8px;
   padding: 10px 30px;
 }
 .btn-custom-aj:hover{
   color: white;
-  background-color: #151A20
+  background-color: #353849
 }
 .btn-custom-aj-2{
     color: white;
     font-weight: 600;
-    background-color: #151A20;
-    border-color: #151A20;
+    background-color: #353849;
+    border-color: #353849;
     border-radius: 8px;
     padding: 10px 30px;
   }
   .btn-custom-aj-2:hover{
-    color: #151A20;
+    color: #353849;
     background-color: #fff
   }
 .nav-item a i{
@@ -195,7 +244,7 @@ body,html{
   padding: 2px;
 }
 .navitem a i:hover{
-  color: #151A20
+  color: #353849
 }
 .navbar-dark .navbar-brand{
   color: #1F243C !important;
@@ -208,7 +257,7 @@ body,html{
 }
 .title-portfolio{
   font-size: 20px;
-  color: #151A20;
+  color: #353849;
   font-weight: 400;
   margin-bottom: 4px;
 
@@ -282,7 +331,7 @@ body,html{
   width: 28px;
 }
 .fd-journal{
-  margin-top: 3em!important
+  margin-top: 6em!important
 }
 .subtitle-journal{
   color: #ababab
@@ -388,7 +437,15 @@ a{
 }
 .footer-text{
   float: left;
-  color: #151A20;
+  color: #353849;
+  font-weight: 100;
+}
+.link-footer{
+  color: #353849;
+  font-weight: 100;
+}
+.link-footer:hover{
+  color: #0D0C22;
 }
 .footer-icon{
   -webkit-box-orient: horizontal;
@@ -419,7 +476,7 @@ a{
 }
 .p-portfolio b{
   font-weight: 700;
-  color: #151A20
+  color: #353849
 }
 .p-title{
   font-weight: 700;
@@ -445,20 +502,26 @@ a{
 }
 .title-portfolio{
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 26px;
   text-decoration: none!important;
 }
 .title-portfolio:hover{
   text-decoration: none!important;
 }
 .thumbnail-portfolio{
-  transition: all .2s ease-in-out
+  transition: all .2s ease-in-out;
+  padding: 1em;
 }
 .thumbnail-portfolio:hover{
   transform: scale(1.025);
+  background: #f5f5f5;
+  border-radius: 16px;
+}
+.portfolio-locked:hover{
+  cursor: wait;
 }
 .jump-to-mail{
-  color: #151A20 !important;
+  color: #353849 !important;
   font-size: 1rem;
 
 }
@@ -469,10 +532,15 @@ a{
   text-decoration: none!important;
 }
 
+hr{
+  /* background-color: #7F868E!important; */
+}
+
 .navbar-item-custom{
   margin: 1em;
-  color: #a1a1a1;
+  color: #353849;
   font-size: 18px;
+  font-weight: 300;
   padding: 10px 20px;
 }
 .navbar-item-custom.selected{
@@ -520,12 +588,14 @@ a{
   padding: 10px 20px;
 }
 .nav-link.active,
-  .nav-item.show .nav-link {
-    color: #151A20!important;
-    text-decoration: underline;
+  .nav-item.show .nav-link {#
+    color: #353849!important;
+    border-bottom: 1px solid #353849;
+    /* text-decoration: underline; */
   }
 .nav-link:focus, .nav-link:hover{
-  color: #000!important;
+  color: #353849!important;
+  border-bottom: 1px solid #353849;
 }
 
 .tab-custom{
@@ -533,15 +603,19 @@ a{
 }
 
 .nav-link{
-  color: #8F919D;
+  color: #353849;
+  font-weight: 300;
+  font-size: 26px;
 }
 .section-experience #title{
   font-size: 32px;
-  color: #151A20;
+  color: #353849;
+  font-weight: 300;
 }
 .section-experience #sub{
   font-size: 22px;
   color: #7F868E;
+  font-weight: 100;
 }
 .nav-link{
   padding: .5rem 2rem;
@@ -558,6 +632,53 @@ a{
   margin-top: 20px;
   margin-left: 20px;
   padding: 10px 14px;
+}
+.bg-about{
+  background-image: url("../../assets/images/background/bg-profile.jpg");
+  width: 500px;
+  height: 180px;
+  border-radius: 8px;
+}
+.img-bg-profile{
+  width: 600px;
+  height: auto;
+}
+.image-profile{
+  width: 9rem;
+  height: auto;
+  border-radius: 7rem;
+  border: 4px solid white;
+  margin-top: -3rem;
+}
+.description-profile{
+  padding: 32px;
+  color: #353849;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 50px;
+}
+.special-description{
+  background: #FAFAFA;
+  color: #353849;
+  padding: 6px 8px;
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+}
+.description-experience-head{
+  padding: 32px 32px 16px 32px;
+  font-size: 20px;
+}
+.description-experience{
+  padding: 0px 32px;
+}
+.description-experience-title{
+  font-size: 20px;
+  font-weight: 500;
+  color: #353849;
+}
+.description-experience-subtitle{
+  font-size: 18px;
+  color: #353849b0;
 }
 
 /* ****************************************************************************************************************************** */
