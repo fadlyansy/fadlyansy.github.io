@@ -598,6 +598,8 @@ hr{
     color: #19191B!important;
     background-color: white;
     border-radius: 16px;
+    box-shadow: 0 .48290122862090357px 2.028185160207795px -1.75px #00000029,0 4px 16.8px -3.5px #00000010;
+    color: #19191B;
     /* border-bottom: 1px solid #19191B; */
     /* text-decoration: underline; */
   }
@@ -613,7 +615,7 @@ hr{
 }
 
 .nav-link{
-  color: #19191B;
+  color: #696A70;
   font-weight: 300;
   font-size: 26px;
 }
