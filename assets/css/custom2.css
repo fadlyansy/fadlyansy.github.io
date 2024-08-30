@@ -68,7 +68,7 @@ b{
 @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 body{
-    background-color: #f5f5f5;
+    background-color: #fff;
     font-family: 'Pretendard-Light', sans-serif, -apple-system ;
     font-weight: 200;
     height:100%;
@@ -97,7 +97,6 @@ body,html{
 }
 
 .fd-head-title{
-  margin-left: -20px;
   font-size: 32pt;
   font-weight: 600;
 }
@@ -168,7 +167,7 @@ body,html{
 .fd-intro{
   width: auto;
   height: auto;
-  padding-bottom: 10rem;
+  /* padding-bottom: 10rem; */
   background-color: white;
 }
 .photo-me img{
@@ -179,7 +178,7 @@ body,html{
 
 .title-intro{
   color: #19191B;
-  font-size: 90px;
+  font-size: 60px;
   font-weight: 300;
   margin-top: 1.5em;
   line-height: 140%;
@@ -190,8 +189,9 @@ body,html{
 }
 .subtitle-intro{
     font-family: 'Pretendard-Light', sans-serif, -apple-system ;
-    font-size: 20px;
+    font-size: 16px;
     color: #696A70;
+    line-height: 160%;
   }
 .subtitle-intro-alt{
     font-size: 20px;
@@ -506,8 +506,7 @@ a{
   /* margin: auto; */
 }
 .title-portfolio{
-  margin-top: 10px;
-  font-size: 26px;
+  font-size: 24px;
   text-decoration: none!important;
 }
 .title-portfolio:hover{
@@ -515,13 +514,18 @@ a{
 }
 .thumbnail-portfolio{
   transition: all .2s ease-in-out;
-  padding: 1em;
+  padding: 5rem;
   height: 100%;
+  border-radius: 1rem!important
 }
 .thumbnail-portfolio:hover{
   transform: scale(1.025);
-  background: #f5f5f5;
+  background: #fafafa;
   border-radius: 16px;
+  border: 1px solid #ececec
+}
+.thumbnail-portfolio-img{
+  border-radius: 1rem!important
 }
 .portfolio-locked:hover{
   cursor: wait;
@@ -587,6 +591,9 @@ hr{
 .btn-custom-visit{
   min-width: 350px;
 }
+.bg-intro{
+  border-radius: 32px;
+}
 
 .btn-tab-new{
   font-size: 20px;
@@ -620,7 +627,7 @@ hr{
   font-size: 26px;
 }
 .section-experience #title{
-  font-size: 32px;
+  font-size: 42px;
   color: #19191B;
   font-weight: 300;
 }
@@ -639,11 +646,12 @@ a{
 }
 
 .btn-lets-talk{
-  max-width: 300px;
-  max-height: 45px;
-  margin-top: 20px;
-  margin-left: 20px;
-  padding: 10px 14px;
+  padding: 8px 22px;
+  border-radius: 100px;
+  margin: 0 16px;
+  font-weight: 400;
+  font-size: 16px;
+  
 }
 .bg-about{
   background-image: url("../../assets/images/background/bg-profile.jpg");
@@ -697,11 +705,73 @@ a{
 
 .btn-dark-private{
   color: #212529;
-  border: 1px solid #212529;
+  border: 1px solid #d2d2d2;
+  border-radius: 32px;
+}
+.btn-icon{
+  padding: 0.8rem;
+  border-radius: 32px;
+  border: 1px solid #d2d2d2;
+  margin: 0 4px;
+}
+.btn-icon img{
+  width: 20px;
+  height: 20px;
+}
+.btn-icon-wrapper{
+  
 }
 
 /* ****************************************************************************************************************************** */
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-30%);
+  }
+}
 
+.logos {
+  overflow: hidden;
+  padding: 30px 0px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before, .logos:after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
+}
+
+.logo_items {
+  display: inline-block;
+  animation: 15s slides infinite linear;
+}
+
+.logos:hover .logo_items {
+  animation-play-state: paused;
+}
+
+.logo_items img{
+  height: 200px;
+}
+
+/* ****************************************************************************************************************************** */
 #exTab1 .tab-content {
   color : white;
   background-color: #428bca;
@@ -757,6 +827,23 @@ a{
   .section-title-project{
     font-size: 24px;
   }
+  .thumbnail-portfolio{
+    padding: 1rem;
+  }
+  .btn-lets-talk{
+    margin: 23px 8px;
+  }
+  .btn-icon img{
+    width: 18px;
+    height: 18px;
+  }
+  .btn-icon{
+    padding: 0.8rem;
+    margin: 0 2px;
+  }
+  .m-featured-work{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -787,6 +874,11 @@ a{
   .section-project div{
     top: auto;
   }
+  .m-heading-thumbnail-portfolio{
+    margin-top: 20rem;
+  }
+  
+
 }
 
 @media only screen and (max-width: 960px) {
@@ -869,3 +961,5 @@ a{
 @media (min-width: 991px){
   
 }
+
+
