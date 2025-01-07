@@ -504,6 +504,11 @@ a{
 }
 .p-btn-back{
   color: #1F243C!important;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.padding-2em{
+  padding: 2em!important;
 }
 
 .thumbnail-company{
@@ -688,7 +693,20 @@ a{
 .btn-lets-talk:hover{
   color: #212529;
   background-color: #fff;
+}
 
+.btn-portfolio{
+  padding: .7rem 1.5rem;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+}
+.btn-portfolio:hover{
+  color: #212529;
+  background-color: #fff;
 }
 
 .bg-about{
