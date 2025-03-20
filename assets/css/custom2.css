@@ -617,7 +617,7 @@ hr{
   padding: 10px 20px;
 }
 .nav-link.active,
-  .nav-item.show .nav-link {#
+  .nav-item.show .nav-link {
     color: #222124!important;
     background-color: white;
     border-radius: 16px;
@@ -683,13 +683,22 @@ a{
 .btn-lets-talk{
   padding: .7rem 1.5rem;
   border-radius: 100px;
-  margin: 0 16px;
   font-weight: 400;
   font-size: 1.25rem;
   color: #fff;
   background-color: #212529;
   border-color: #212529;
 }
+.btn-lets-talk-white{
+  padding: .7rem 1.5rem;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #212529;
+  background-color: #fff;
+  border-color: #212529;
+}
+
 .btn-lets-talk:hover{
   color: #212529;
   background-color: #fff;
@@ -720,11 +729,11 @@ a{
   height: auto;
 }
 .image-profile{
-  width: 14rem;
+  width: 6em;
   height: auto;
+  border-radius: 5em;
 }
 .description-profile{
-  padding: 24px;
   color: #222124;
   font-size: 1.2em;
   font-weight: 100;
@@ -806,6 +815,18 @@ a{
 }
 .w-1000{
   width: 1000px;
+}
+.padding-left-top{
+  padding-left: 6em;
+  padding-top: 1em;
+}
+.title-name{
+  font-size: 1.4em;
+  color: #222124;
+}
+.title-job{
+  font-size: 1em;
+  color: #909090;
 }
 
 /* ****************************************************************************************************************************** */
@@ -934,7 +955,7 @@ a{
     /* margin-top: 4em; */
   }
   .image-profile{
-    width: 9rem;
+    width: 6em;
     margin-top: 2em;
   }
 }
@@ -1069,5 +1090,3 @@ a{
 @media (min-width: 991px){
   
 }
-
-/* Owl Carousel */
