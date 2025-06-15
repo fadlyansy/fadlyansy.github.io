@@ -1,76 +1,80 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'); */
+/* *********************** Rethink Font *********************** */
 
 @font-face {
-  font-family: "Pretendard-ExtraLight";
-  src: url("../webfonts/Pretendard/Pretendard-ExtraLight.woff") format('woff');
+  font-family: "RethinkSans-Regular";
+  src: url("../webfonts/RethinkSans/RethinkSans-Regular.woff2") format('woff2');
   font-weight: 100;
 }
 
 @font-face {
-  font-family: "Pretendard-Thin";
-  src: url("../webfonts/Pretendard/Pretendard-Thin.woff") format('woff');
+  font-family: "RethinkSans-Medium";
+  src: url("../webfonts/RethinkSans/RethinkSans-Medium.woff2") format('woff2');
   font-weight: 200;
 }
 
 @font-face {
-  font-family: "Pretendard-Light";
-  src: url("../webfonts/Pretendard/Pretendard-Light.woff") format('woff');
+  font-family: "RethinkSans-SemiBold";
+  src: url("../webfonts/RethinkSans/RethinkSans-SemiBold.woff2") format('woff2');
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "Pretendard-Regular";
-  src: url("../webfonts/Pretendard/Pretendard-Regular.woff") format('woff');
+  font-family: "RethinkSans-Bold";
+  src: url("../webfonts/RethinkSans/RethinkSans-Bold.woff2") format('woff2');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Pretendard-Medium";
-  src: url("../webfonts/Pretendard/Pretendard-Medium.woff") format('woff');
+  font-family: "RethinkSans-ExtraBold";
+  src: url("../webfonts/RethinkSans/RethinkSans-ExtraBold.woff2") format('woff2');
   font-weight: 500;
 }
 
-@font-face {
-  font-family: "Pretendard-Bold";
-  src: url("../webfonts/Pretendard/Pretendard-Bold.woff") format('woff');
-  font-weight: 600;
+/* *********************** Inter Font *********************** */
+
+ @font-face {
+  font-family: "Inter-Thin";
+  src: url("../webfonts/Inter/Inter-Thin.woff2") format('woff2');
+  font-weight: 100;
 }
 
 @font-face {
-  font-family: "Pretendard-ExtraBold";
-  src: url("../webfonts/Pretendard/Pretendard-ExtraBold.woff") format('woff');
-  font-weight: 700;
+  font-family: "Inter-Regular";
+  src: url("../webfonts/Inter/Inter-Regular.woff2") format('woff2');
+  font-weight: 200;
 }
 
 @font-face {
-  font-family: "Pretendard-Black";
-  src: url("../webfonts/Pretendard/Pretendard-Black.woff") format('woff');
-  font-weight: 700;
+  font-family: "Inter-Medium";
+  src: url("../webfonts/Inter/Inter-Medium.woff2") format('woff2');
+  font-weight: 300;
 }
 
-/* 
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../webfonts/Inter/Inter-SemiBold.woff2") format('woff2');
+  font-weight: 300;
+}
 
 @font-face {
-  font-family: "CabinetGrotesk";
-  src: url("../webfonts/CG/CabinetGrotesk-Medium.woff") format('woff');
+  font-family: "Inter-Bold";
+  src: url("../webfonts/Inter/Inter-Bold.woff2") format('woff2');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "CabinetGrotesk";
-  src: url("../webfonts/CG/CabinetGrotesk-Bold.woff") format('woff');
-  font-weight: 600;
-} */
-b{
-  font-family: 'Pretendard-Bold', sans-serif, -apple-system ;
-  font-weight: 600;
+  font-family: "Inter-ExtraBold";
+  src: url("../webfonts/Inter/Inter-ExtraBold.woff2") format('woff2');
+  font-weight: 500;
 }
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* *********************** Custom CSS *********************** */
 
 body{
     background-color: #fff;
-    font-family: 'Pretendard-Light', sans-serif, -apple-system ;
-    font-weight: 200;
+    font-family: "RethinkSans-Regular", sans-serif;
+    font-weight: 100;
+    font-optical-sizing: auto;
     height:100%;
     background-position: right 0 top 0;
     background-repeat: no-repeat;
@@ -112,7 +116,7 @@ body,html{
 }
 .title-section{
   font-size: 36px;
-  color: #222124;
+  color: rgba(0,0,0);
   text-align: left;
   font-weight: 400;
 }
@@ -177,8 +181,8 @@ body,html{
 }
 
 .title-intro{
-  color: #222124;
-  font-size: 60px;
+  color: rgba(0,0,0);
+  font-size: 4.5em;
   font-weight: 300;
   margin-top: 1.5em;
   line-height: 160%;
@@ -188,13 +192,13 @@ body,html{
   width: 1em;
 }
 .subtitle-intro{
-    font-family: 'Pretendard-Light', sans-serif, -apple-system ;
-    font-size: 1.1em;
-    color: #5F5F61;
+    font-family: 'Rethink Sans', sans-serif, -apple-system ;
+    font-size: 18px;
+    color: rgb(0, 0, 0, 0.8);
     line-height: 200%;
   }
 .subtitle-intro-alt{
-    font-size: 20px;
+    font-size: 18px;
     color: #3D4C5E;
     font-weight: 300;
 }
@@ -216,27 +220,27 @@ body,html{
 }
 
 .btn-custom-aj{
-  color: #222124;
+  color: rgba(0,0,0);
   font-weight: 600;
   background-color: white;
-  border-color: #222124;
+  border-color: rgba(0,0,0);
   border-radius: 8px;
   padding: 10px 30px;
 }
 .btn-custom-aj:hover{
   color: white;
-  background-color: #222124
+  background-color: rgba(0,0,0)
 }
 .btn-custom-aj-2{
     color: white;
     font-weight: 600;
-    background-color: #222124;
-    border-color: #222124;
+    background-color: rgba(0,0,0);
+    border-color: rgba(0,0,0);
     border-radius: 8px;
     padding: 10px 30px;
   }
   .btn-custom-aj-2:hover{
-    color: #222124;
+    color: rgba(0,0,0);
     background-color: #fff
   }
 .nav-item a i{
@@ -245,7 +249,7 @@ body,html{
   padding: 2px;
 }
 .navitem a i:hover{
-  color: #222124
+  color: rgba(0,0,0)
 }
 .navbar-dark .navbar-brand{
   color: #1F243C !important;
@@ -258,14 +262,14 @@ body,html{
 }
 .title-portfolio{
   font-size: 20px;
-  color: #222124;
+  color: rgba(0,0,0);
   font-weight: 400;
   margin-bottom: 4px;
 
 }
 .subtitle-portfolio{
   font-size: 14px;
-  color: #222124;
+  color: rgba(0,0,0);
   margin-bottom: 8px;
   text-decoration: none!important;
 }
@@ -289,10 +293,10 @@ body,html{
   transition: all 0.3s ease-in-out !important
 } */
 .subtitle-intro a{
-  color: #5F5F61 !important;
+  color: rgba(0,0,0,0.75) !important;
 }
 .subtitle-intro a:hover{
-  color: #222124 !important;
+  color: rgba(0,0,0) !important;
   text-decoration: underline!important;
   transition: all 0.3s ease-in-out !important;
 }
@@ -333,9 +337,8 @@ body,html{
 .fd-journal{
   margin-top: 6em!important;
   background-color: white;
-  padding: 32px;
   border-radius: 16px;
-  box-shadow: 0 .48290122862090357px 2.028185160207795px -1.75px #00000029,0 4px 16.8px -3.5px #00000010;
+  /* box-shadow: 0 .48290122862090357px 2.028185160207795px -1.75px rgba(0,0,0)00029,0 4px 16.8px -3.5px rgba(0,0,0)00010; */
 }
 .subtitle-journal{
   color: #ababab
@@ -351,7 +354,7 @@ a{
   transition: all 0.3s ease-in-out !important;
 }
 
-.fd-border-line{
+.fd-border-line{ 
   position: absolute;
   width: 100%;
   text-align: center;
@@ -441,16 +444,16 @@ a{
 }
 .footer-text{
   float: left;
-  color: #222124;
-  font-size: 1.2em;
+  color: rgba(0,0,0,0.75);
+  font-size: 16px;
   line-height: 50px;
 }
 .link-footer{
-  color: #5F5F61;
+  color: rgba(0,0,0,0.75);
   
 }
 .link-footer:hover{
-  color: #222124 !important;
+  color: rgba(0,0,0) !important;
   text-decoration: underline!important;
   transition: all 0.3s ease-in-out !important;
 }
@@ -479,16 +482,16 @@ a{
 .p-portfolio{
   line-height: 200%;
   font-size: 20px;
-  color: #222124
+  color: rgba(0,0,0)
 }
 .p-portfolio b{
   font-weight: 700;
-  color: #222124
+  color: rgba(0,0,0)
 }
 .p-experience{
   line-height: 200%;
   font-size: 1.1rem;
-  color: #222124
+  color: rgba(0,0,0)
 }
 .img-experience{
   width: 7em;
@@ -522,7 +525,7 @@ a{
   /* margin: auto; */
 }
 .title-portfolio{
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none!important;
 }
 .title-portfolio:hover{
@@ -530,7 +533,6 @@ a{
 }
 .thumbnail-portfolio{
   transition: all .2s ease-in-out;
-  padding: 5rem;
   height: 100%;
   border-radius: 1rem!important
 }
@@ -547,7 +549,7 @@ a{
   cursor: wait;
 }
 .jump-to-mail{
-  color: #222124 !important;
+  color: rgba(0,0,0) !important;
   font-size: 1rem;
 
 }
@@ -564,21 +566,21 @@ hr{
 
 .navbar-item-custom{
   margin: 1em;
-  color: #222124;
+  color: rgba(0,0,0);
   font-size: 18px;
   font-weight: 300;
   padding: 10px 20px;
 }
 .navbar-item-custom.selected{
   background: #fafafa;
-  color: #222124;
+  color: rgba(0,0,0);
   padding: 10px 20px;
   border-radius: 8px;
   font-weight: 400;
   transition: all .2s ease-in-out
 }
 .navbar-item-custom:hover{
-  color: #222124;
+  color: rgba(0,0,0);
   font-weight: 400;
   transition: all .2s ease-in-out
 }
@@ -618,19 +620,16 @@ hr{
 }
 .nav-link.active,
   .nav-item.show .nav-link {
-    color: #222124!important;
-    background-color: white;
-    border-radius: 16px;
-    box-shadow: 0 .48290122862090357px 2.028185160207795px -1.75px #00000029,0 4px 16.8px -3.5px #00000010;
-    color: #222124;
-    /* border-bottom: 1px solid #222124; */
-    /* text-decoration: underline; */
+    color: rgba(0,0,0)!important;
+    background-color: #f0f0f0;
+    border-radius: 1em;
+    color: rgba(0,0,0);
   }
 .nav-link:focus, .nav-link:hover{
-  color: #222124!important;
-  /* border-bottom: 1px solid #222124; */
-  background-color: #fcfcfc;
-  border-radius: 16px;
+  color: rgba(0,0,0)!important;
+  /* border-bottom: 1px solid rgba(0,0,0); */
+  background-color: #f0f0f0;
+  border-radius: 32px;
 }
 
 .tab-custom{
@@ -638,42 +637,41 @@ hr{
 }
 
 .nav-link{
-  color: #5F5F61;
-  font-weight: 300;
-  font-size: 26px;
+  color: rgba(0,0,0,0.5);
 }
 .section-experience .title{
   font-size: 42px;
-  color: #222124;
+  color: rgba(0,0,0);
   font-weight: 300;
 }
 .section-explore .title{
-  font-size: 42px;
-  color: #222124;
+  font-size: 24px;
+  color: rgba(0,0,0);
   font-weight: 300;
 }
 .section-about .title{
   font-size: 42px;
-  color: #222124;
+  color: rgba(0,0,0);
   font-weight: 300;
 }
 .section-experience #sub{
   font-size: 22px;
-  color: #5F5F61;
+  color: rgba(0,0,0,0.75);
   font-weight: 100;
 }
 .section-explore #sub{
   font-size: 22px;
-  color: #5F5F61;
+  color: rgba(0,0,0,0.75);
   font-weight: 100;
 }
 .section-about #sub{
   font-size: 22px;
-  color: #5F5F61;
+  color: rgba(0,0,0,0.75);
   font-weight: 100;
 }
 .nav-link{
-  padding: .5rem 2rem;
+  padding: .5rem 1rem;
+  margin: 0 0.5em;
 }
 
 a{
@@ -729,30 +727,32 @@ a{
   height: auto;
 }
 .image-profile{
-  width: 6em;
+  width: 72px;
   height: auto;
   border-radius: 5em;
 }
 .description-profile{
-  color: #222124;
-  font-size: 1.2em;
+  font-family: "Inter-Regular", sans-serif;
+  color: rgba(0,0,0,0.75);
+  font-size: 16px;
   font-weight: 100;
-  line-height: 50px;
-  background-color: white;
-  border-radius: 16px;
+  line-height: 35px;
 }
 .description-featured{
-  color: #5F5F61;
+  color: rgba(0,0,0,0.75);
   font-size: 1.2em;
   font-weight: 100;
   line-height: 50px;
 }
 .special-description{
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
   background: #FAFAFA;
-  color: #222124;
+  color: rgba(0,0,0,0.);
   padding: 6px 8px;
   border: 1px solid #EAEAEA;
   border-radius: 8px;
+  line-height: 300%;
 }
 .description-experience-head{
   padding: 32px 32px 16px 32px;
@@ -764,11 +764,11 @@ a{
 .description-experience-title{
   font-size: 20px;
   font-weight: 500;
-  color: #222124;
+  color: rgba(0,0,0);
 }
 .description-experience-subtitle{
   font-size: 18px;
-  color: #222124b0;
+  color: rgba(0,0,0)b0;
 }
 
 .btn-dark-private{
@@ -817,16 +817,30 @@ a{
   width: 1000px;
 }
 .padding-left-top{
-  padding-left: 6em;
-  padding-top: 1em;
+  padding-left: 5em;
+  padding-top: 1.3em;
 }
 .title-name{
-  font-size: 1.4em;
-  color: #222124;
+  font-size: 24px;
+  color: rgba(0,0,0);
 }
 .title-job{
-  font-size: 1em;
-  color: #909090;
+  font-size: 18px;
+  color: rgba(0,0,0,0.75);
+}
+span.word{
+  position: relative;
+}
+span.word::after{
+  background-color: #ffe359;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 1rem;
+  top: 65%;
+  width: calc(100% + 2.75rem);
+  z-index:-1;
 }
 
 /* ****************************************************************************************************************************** */
@@ -841,7 +855,7 @@ a{
 
 .logos {
   overflow: hidden;
-  padding: 30px 0px;
+  padding: 0px 0px;
   white-space: nowrap;
   position: relative;
 }
@@ -916,6 +930,14 @@ a{
   color: red!important;
 }
 
+.mw-700{
+  max-width: 700px;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+  color: white!important
+}
+
 /* ****************************************************************************************************************************** */
 
 @media only screen and (max-width: 990px) {
@@ -955,7 +977,7 @@ a{
     /* margin-top: 4em; */
   }
   .image-profile{
-    width: 6em;
+    width: 72px;
     margin-top: 2em;
   }
 }
@@ -1025,7 +1047,7 @@ a{
       margin-top: 2em;
     }
     .section-explore .title{
-      font-size: 40px;
+      font-size: 24px;
       margin-top: 2em;
     }
     .section-about .title{
@@ -1039,7 +1061,7 @@ a{
       font-size: 20px;
     }
     .fd-intro{
-      height: 1400px;
+      /* height: 1400px; */
     }
     .footer .find-me{
       font-size: 30px;
