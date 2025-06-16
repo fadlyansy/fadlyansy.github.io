@@ -192,9 +192,8 @@ body,html{
   width: 1em;
 }
 .subtitle-intro{
-    font-family: 'Rethink Sans', sans-serif, -apple-system ;
-    font-size: 18px;
-    color: rgb(0, 0, 0, 0.8);
+  font-family: "Inter-Regular", sans-serif;    font-size: 16px;
+    color: rgb(0, 0, 0, 0.75);
     line-height: 200%;
   }
 .subtitle-intro-alt{
@@ -313,13 +312,6 @@ body,html{
   width: 100%; 
   object-fit: fill;
   border-radius: 8px;
-}
-
-.title-journal{
-  font-size: 18pt;
-  color: #0D0C22;
-  font-family: 'SuisseIntl'
-
 }
 
 .underline{
