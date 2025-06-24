@@ -475,12 +475,14 @@ a{
 }
 .p-portfolio{
   line-height: 200%;
-  font-size: 20px;
-  color: rgba(0,0,0)
+  font-family: 'Inter-Regular';
+  font-size: 16px;
+  color: rgba(0,0,0,0.75);
 }
 .p-portfolio b{
-  font-weight: 700;
-  color: rgba(0,0,0)
+  font-family: 'Inter-Bold';
+  font-size: 20;
+  color: rgba(0,0,0,0.75);
 }
 .p-experience{
   line-height: 200%;
@@ -492,17 +494,18 @@ a{
   margin-bottom: 2rem;
 }
 .p-title{
-  font-weight: 700;
-  color: #1F243C;
+  color: rgba(0,0,0);
+  font-size: 20px;
+  font-weight: 400;
 }
 .p-subtitle{
   font-weight: 200;
-  color: #1F243C;
+  color: rgba(0,0,0);
 }
 .p-btn-back{
-  color: #1F243C!important;
-  font-size: 1.2rem;
-  font-weight: 600;
+  color: rgba(0,0,0);
+  font-size: 20px;
+  font-weight: 400;
 }
 .padding-2em{
   padding: 2em!important;

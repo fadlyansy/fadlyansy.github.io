@@ -1,10 +1,20 @@
-<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_133_1095)">
-<path d="M19.0005 11.5002H7.83047L12.7105 6.62021C13.1005 6.23021 13.1005 5.59021 12.7105 5.20021C12.3205 4.81021 11.6905 4.81021 11.3005 5.20021L4.71047 11.7902C4.32047 12.1802 4.32047 12.8102 4.71047 13.2002L11.3005 19.7902C11.6905 20.1802 12.3205 20.1802 12.7105 19.7902C13.1005 19.4002 13.1005 18.7702 12.7105 18.3802L7.83047 13.5002H19.0005C19.5505 13.5002 20.0005 13.0502 20.0005 12.5002C20.0005 11.9502 19.5505 11.5002 19.0005 11.5002Z" fill="#323232"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 25" style="enable-background:new 0 0 24 25;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0.5" width="24" height="24"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<path d="M19,11.5H7.8l4.9-4.9c0.4-0.4,0.4-1,0-1.4c-0.4-0.4-1-0.4-1.4,0l-6.6,6.6c-0.4,0.4-0.4,1,0,1.4l6.6,6.6
+			c0.4,0.4,1,0.4,1.4,0c0.4-0.4,0.4-1,0-1.4l-4.9-4.9H19c0.6,0,1-0.4,1-1S19.6,11.5,19,11.5z"/>
+	</g>
 </g>
-<defs>
-<clipPath id="clip0_133_1095">
-<rect width="24" height="24" fill="white" transform="translate(0 0.5)"/>
-</clipPath>
-</defs>
 </svg>
