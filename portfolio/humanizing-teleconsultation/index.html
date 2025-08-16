@@ -41,6 +41,17 @@
   </head>
 <!-- SEO -->
 
+
+  <!-- Head: cegah flash konten saat butuh password -->
+<style>html.cs-locked body{visibility:hidden}</style>
+<script>
+  (function () {
+    if (location.pathname.startsWith('/portfolio')) {
+      document.documentElement.classList.add('cs-locked');
+    }
+  })();
+</script>
+
 <!-- FAVICON -->
 <link rel="apple-touch-icon" sizes="57x57" href="../../assets/images/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="../../assets/images/favicon/apple-icon-60x60.png">
@@ -169,6 +180,16 @@
   <!-- Footer End -->
   
   <script src="assets/js/custom.js"></script>
+
+   <script
+      src="../../assets/js/portfolio-gate.js"
+      data-password="2025"
+      data-path-prefix="/portfolio"
+      data-storage="local"         
+      data-always-prompt="false"
+      data-title="Protected Portfolio"
+      data-note="Press ESC to cancel."
+    ></script>
 </body>
 
 </html>

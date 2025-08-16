@@ -42,6 +42,17 @@
   <meta name="description" content="Here is a precise description of my awesome webpage.">
 <!-- SEO -->
 
+<style>html.cs-locked body{visibility:hidden}</style>
+<script>
+  (function () {
+    if (location.pathname.startsWith('/portfolio')) {
+      document.documentElement.classList.add('cs-locked');
+    }
+  })();
+</script>
+
+
+
 <!-- LOTTIE -->
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest"></script>
 
@@ -473,6 +484,16 @@
   <script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <script
+  src="/assets/js/portfolio-gate.js"
+  data-password="2025"
+  data-path-prefix="/portfolio"
+  data-storage="local"
+  data-always-prompt="false"
+  data-title="Protected Portfolio"
+  data-note="Press ESC to cancel."
+></script>
 </body>
 
 </html>
