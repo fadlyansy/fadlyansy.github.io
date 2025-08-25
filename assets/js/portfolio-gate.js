@@ -134,6 +134,15 @@
         }
       }
     });
+    overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) {
+      overlay.remove();
+      if (!isAuthed() && location.pathname.startsWith(PATH_PREFIX)) {
+        document.documentElement.classList.add('cs-locked');
+        renderGate(onSuccess);
+      }
+    }
+   });
   }
 
   function escapeHtml(s) {
