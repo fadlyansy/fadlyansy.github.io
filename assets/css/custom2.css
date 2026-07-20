@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
 /* *********************** Rethink Font *********************** */
 
 @font-face {
@@ -33,7 +35,7 @@
 /* *********************** Inter Font *********************** */
 
  @font-face {
-  font-family: "Inter-Thin";
+  font-family: 'DM Sans', sans-serif;
   src: url("../webfonts/Inter/Inter-Thin.woff2") format('woff2');
   font-weight: 100;
 }
@@ -45,13 +47,13 @@
 }
 
 @font-face {
-  font-family: "Inter-Medium";
+  font-family: 'DM Sans', sans-serif;
   src: url("../webfonts/Inter/Inter-Medium.woff2") format('woff2');
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "Inter-SemiBold";
+  font-family: 'DM Sans', sans-serif;
   src: url("../webfonts/Inter/Inter-SemiBold.woff2") format('woff2');
   font-weight: 300;
 }
@@ -63,7 +65,7 @@
 }
 
 @font-face {
-  font-family: "Inter-ExtraBold";
+  font-family: 'DM Sans', sans-serif;
   src: url("../webfonts/Inter/Inter-ExtraBold.woff2") format('woff2');
   font-weight: 500;
 }
@@ -72,8 +74,8 @@
 
 body{
     background-color: #fff;
-    font-family: "RethinkSans-Regular", sans-serif;
-    font-weight: 100;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 400;
     font-optical-sizing: auto;
     height:100%;
     background-position: right 0 top 0;
@@ -85,8 +87,8 @@ body,html{
 
 .body-portfolio{
   background-color: #ffffff;
-  font-family: 'Inter', sans-serif, -apple-system ;
-  font-weight: 200;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 400;
   height:100%;
   background-image: url("../../assets/images/bg-shape-transparent.svg");
   background-repeat: no-repeat;
@@ -192,7 +194,7 @@ body,html{
   width: 1em;
 }
 .subtitle-intro{
-  font-family: "Inter-Regular", sans-serif;    font-size: 16px;
+  font-family: 'DM Sans', sans-serif;    font-size: 16px;
     color: rgb(0, 0, 0, 0.75);
     line-height: 200%;
   }
@@ -474,13 +476,14 @@ a{
   height: auto;
 }
 .p-portfolio{
-  line-height: 200%;
-  font-family: 'Inter-Regular';
+  line-height: 40px;
+  font-family: 'DM Sans', sans-serif;
   font-size: 16px;
-  color: rgba(0,0,0,0.75);
+  color: #666363;
+  font-weight: 400;
 }
 .p-portfolio b{
-  font-family: 'Inter-Bold';
+  font-family: 'DM Sans', sans-serif;
   font-size: 20;
   color: rgba(0,0,0,0.75);
 }
@@ -729,7 +732,7 @@ a{
   border-radius: 5em;
 }
 .description-profile{
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: rgba(0,0,0,0.75);
   font-size: 16px;
   font-weight: 100;
@@ -742,7 +745,7 @@ a{
   line-height: 50px;
 }
 .special-description{
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 16px;
   background: #FAFAFA;
   color: rgba(0,0,0,0.);
@@ -886,7 +889,7 @@ span.word::after{
 }
 
 .logo_items img{
-  height: 200px;
+  height: 150px;
 }
 .img-rounded-new{
   border-radius: 1rem;
@@ -928,7 +931,7 @@ span.word::after{
 }
 
 .mw-700{
-  max-width: 700px;
+  max-width: 500px;
 }
 
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{

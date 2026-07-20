@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/all.min.css">
     <link rel="stylesheet" href="../../assets/css/custom2.css">
+  <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/fontawesome.min.css">
     <script src="../../assets/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -73,43 +74,50 @@
 <!-- FAVICON -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Designer - Fadly</title>
+    <title>Humanizing Teleconsultation ✧ Fadly ✧ Product Manager</title>
 </head>
 
 
 <body>
-  <header class="desktop-header-3 light fixed-top">
-  </header>
-  <div class="container ">
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-        <h3 class="fd-head-title"><a class="navbar-brand" href="../../">Fadly.</a></h3>
-        <!-- Navbar brand yo -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- <div class="collapse navbar-collapse fd-header" id="navbarTop">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a href="https://dribbble.com/fadlyansy"><i class="fab fa-dribbble mr-3" aria-hidden="true"></i></a> </li>
-            <li class="nav-item"><a href="https://medium.com/fadlyansyahh"><i class="fab fa-medium mr-3" aria-hidden="true"></i></a> </li>
-            <li class="nav-item"><a href="https://twitter.com/fadlyansyahh/"><i class="fab fa-twitter mr-3" aria-hidden="true"></i></a></li>
-            <li class="nav-item"> <a href="https://linkedin.com/in/fadlyansy"><i class="fab fa-linkedin-in mr-3" aria-hidden="true"></i></a></li>
-            <p><a href="../../index.html" class="navbar-item-custom">Home</span></a></p>
-            <p><a href="../../pages/exploration/index.html" class="navbar-item-custom">Exploration</span></a></p>
-            <p><a href="../../pages/profile/index.html" class="navbar-item-custom">About</span></a></p>
-          </ul>
-        </div> -->
-      </nav>
-      
-</div>
-
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+        document.body.classList.add('dark-mode');
+        const themeMeta = document.querySelector('meta[name="theme-color"]');
+        if (themeMeta) themeMeta.setAttribute('content', '#121212');
+      }
+    })();
+  </script>
+    <div class="fd-intro">
+    <nav class="container mw-700 navbar navbar-expand-lg navbar-light ">
+      <h3 class="fd-head-title"><a class="navbar-brand" href="../../">Fadly.</a></h3>
+      <button id="theme-toggle" class="btn btn-outline-secondary btn-sm ms-auto" type="button"
+        aria-label="Toggle theme"></button>
+      <button id="contact-button" class="btn btn-outline-secondary btn-sm ms-2" type="button" aria-label="Contact me">
+        <span class="contact-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-mail">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </span>
+        <span class="contact-text">Contact me</span>
+      </button>
+    </nav>
   </div>
 
   <div class="container">
     <div class="row">
       <div class="col-12 mt-4">
-        <a href="../../index.html" class="p-btn-back"><span><img src="../../assets/images/arrow_back.svg" style="width: 24px;" alt=""> Back</span></a>
+        <a href="../../index.html" class="p-btn-back">
+            <span class="back-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </span>
+            <span class="back-text">Back</span>
+          </a>
         <h3 class="p-title mt-4">Humanizing Teleconsultation</h3>
         <hr>
       </div>
@@ -159,25 +167,36 @@
     </div>
    </div>
 
- <!-- Footer Start-->
-    <div class="container mt-5 mb-2 mw-700" style="margin-top: 6em!important">
+     <!-- Footer Start-->
+    <div class="container mb-2 mw-700" style="margin-top: 1em!important">
       <div class="row">
-        <div class="col-12 mb-4">
+        <div class="col-12">
           <hr>
         </div>
 
       </div>
       <div class="row">
-        <div class="col-md-12 footer mb-4">
-          <p class="footer-text">© 2025  Fadly&nbsp;&nbsp;&nbsp; ✧ &nbsp;&nbsp;&nbsp;
-            <a href="mailto:fadlyansy@gmail.com.com" target="_blank" class="link-footer">fadlyansy@gmail.com</a>&nbsp;&nbsp;&nbsp; ✧ &nbsp;&nbsp;&nbsp;
-            <a href="https://linkedin.com/in/fadlyansy" target="_blank" class="link-footer">LinkedIn</a>&nbsp;&nbsp;&nbsp; ✧ &nbsp;&nbsp;&nbsp;
-            <a href="https://dribbble.com/fadlyansy" target="_blank" class="link-footer">Dribbble</a>&nbsp;&nbsp;&nbsp; ✧ &nbsp;&nbsp;&nbsp;
-            <a href="https://twitter.com/fadlyansyahh/" target="_blank" class="link-footer">X</a>
+        <div class="col-12 footer mb-4">
+          <p class="content-divide">Let's Connect</p>
+          <div class="row">
+            <div class="col-6">
+              <p class="content">
+                <a href="https://linkedin.com/in/fadlyansy" target="_blank"
+                  class="link-footer">LinkedIn</a>&nbsp;&nbsp;&nbsp; ✧ &nbsp;&nbsp;&nbsp;
+                <a href="https://instagram.com/fadlyansyahh" target="_blank" rel="noopener noreferrer" class="link-footer">Instagram</a>
+              </p>
+            </div>
+            <div class="col-6 ">
+              <p class="content-divide text-end">© 2026 Fadly</p>
+            </div>
+
+
+
+          </div>
         </div>
+      </div>
     </div>
-  </div>
-  <!-- Footer End -->
+    <!-- Footer End -->
   
   <script src="assets/js/custom.js"></script>
 
@@ -190,6 +209,8 @@
       data-title="Protected Portfolio"
       data-note="Press ESC to cancel."
     ></script>
+
+  <script src="../../assets/js/header-behavior.js"></script>
 </body>
 
 </html>
