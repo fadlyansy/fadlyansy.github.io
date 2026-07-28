@@ -8,75 +8,328 @@
                      __/ |                 __/ |
                     |___/                 |___/ 
  -->
- 
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-     <meta name="author" content="Fadlyansyah">
-     <meta name="author-website" content="fadlyansyah.xyz">
-     <meta name="author-website" content="fadlyansyah">
-     <meta property="og:title" content="Fadlyansyah - Product Manager at HappyFresh with experience in UI/UX for 10 years, based in Jakarta, Indonesia">
-     <meta property="og:title" content="Fadlyansyah">
-     <meta property="og:type" content="website">
-     <meta property="og:description" content="Fadlyansyah - Product Manager at HappyFresh with experience in UI/UX for 10 years, based in Jakarta, Indonesia">
-     <meta name="description" content="Fadlyansyah - Product Manager at HappyFresh with experience in UI/UX for 10 years, based in Jakarta, Indonesia">
-     <meta name="twitter:site" content="@fadlyansyahh">
-     <meta name="twitter:creator" content="@fadlyansyahh">
-     <meta name="twitter:title" content="Fadlyansyah - Product Manager at HappyFresh with experience in UI/UX for 10 years, based in Jakarta, Indonesia">
-     <meta name="twitter:description" content="Fadlyansyah - Product Manager at HappyFresh with experience in UI/UX for 10 years, based in Jakarta, Indonesia">
-     <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-     <link rel="stylesheet" href="assets/css/all.min.css"> -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-     <link rel="stylesheet" href="../../assets/css/custom2.css">
-     <link rel="stylesheet" href="../../assets/css/style.css">
-     <script src="../../assets/js/bootstrap.min.js"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script> -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
- 
- 
 
- <!-- Head: cegah flash konten saat butuh password -->
-<style>html.cs-locked body{visibility:none}</style>
-<script>
-  (function () {
-    if (location.pathname.startsWith('/portfolio')) {
-      document.documentElement.classList.add('cs-locked');
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="author" content="Fadlyansyah">
+  <meta name="author-website" content="fadlyansyah.web.id">
+  <meta name="author-website" content="fadlyansyah">
+  <meta property="og:title"
+    content="Fadlyansyah - Product Manager at HappyFresh with experience in UI/UX for 10 years, based in Jakarta, Indonesia">
+  <meta property="og:title" content="Fadlyansyah">
+  <meta property="og:type" content="website">
+  <meta property="og:description"
+    content="Fadlyansyah - Product Manager at HappyFresh with experience in UI/UX for 10 years, based in Jakarta, Indonesia">
+  <meta name="description"
+    content="Fadlyansyah - Product Manager at HappyFresh with experience in UI/UX for 10 years, based in Jakarta, Indonesia">
+  <meta name="twitter:site" content="@fadlyansyahh">
+  <meta name="twitter:creator" content="@fadlyansyahh">
+  <meta name="twitter:title"
+    content="Fadlyansyah - Product Manager at HappyFresh with experience in UI/UX for 10 years, based in Jakarta, Indonesia">
+  <meta name="twitter:description"
+    content="Fadlyansyah - Product Manager at HappyFresh with experience in UI/UX for 10 years, based in Jakarta, Indonesia">
+  <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/all.min.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../assets/css/custom2.css">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <script src="../../assets/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+  <!-- Head: cegah flash konten saat butuh password -->
+  <style>
+    html.cs-locked body {
+      visibility: none
     }
-  })();
-</script>
- 
- <!-- FAVICON -->
- <link rel="apple-touch-icon" sizes="57x57" href="../../assets/images/favicon/apple-icon-57x57.png">
- <link rel="apple-touch-icon" sizes="60x60" href="../../assets/images/favicon/apple-icon-60x60.png">
- <link rel="apple-touch-icon" sizes="72x72" href="../../assets/images/favicon/apple-icon-72x72.png">
- <link rel="apple-touch-icon" sizes="76x76" href="../../assets/images/favicon/apple-icon-76x76.png">
- <link rel="apple-touch-icon" sizes="114x114" href="../../assets/images/favicon/apple-icon-114x114.png">
- <link rel="apple-touch-icon" sizes="120x120" href="../../assets/images/favicon/apple-icon-120x120.png">
- <link rel="apple-touch-icon" sizes="144x144" href="../../assets/images/favicon/apple-icon-144x144.png">
- <link rel="apple-touch-icon" sizes="152x152" href="../../assets/images/favicon/apple-icon-152x152.png">
- <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicon/apple-icon-180x180.png">
- <link rel="icon" type="image/png" sizes="192x192"  href="../../assets/images/favicon/android-icon-192x192.png">
- <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon/favicon-32x32.png">
- <link rel="icon" type="image/png" sizes="96x96" href="../../assets/images/favicon/favicon-96x96.png">
- <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon/favicon-16x16.png">
- <link rel="manifest" href="../../assets/images/favicon/manifest.json">
- <meta name="msapplication-TileColor" content="#ffffff">
- <meta name="msapplication-TileImage" content="../../assets/images/favicon/ms-icon-144x144.png">
- <meta name="theme-color" content="#ffffff">
- <!-- FAVICON -->
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Boost User Acquisition with Better Onboarding ✧ Fadly ✧ Product Manager</title>
- 
+  </style>
+  <script>
+    (function () {
+      if (location.pathname.startsWith('/portfolio')) {
+        document.documentElement.classList.add('cs-locked');
+      }
+    })();
+  </script>
+
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="57x57" href="../../assets/images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../../assets/images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../../assets/images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../../assets/images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../../assets/images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../../assets/images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../../assets/images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../assets/images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../../assets/images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../assets/images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../../assets/images/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../../assets/images/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- FAVICON -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brand Add-on Deals ✧ Fadly ✧ Product Manager</title>
+
   <!-- Canonical URL -->
   <link rel="canonical" href="https://fadlyansyah.web.id/portfolio/brand-add-on-deals/">
+  <style>
+    .metric-card {
+      background: var(--card-bg, #ffffff);
+      border: 1px solid var(--card-border, #eaeaea);
+      border-radius: 16px;
+      padding: 1.25rem 1rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .metric-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .metric-title {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #333333;
+      text-align: left;
+      margin-bottom: 0.75rem;
+    }
+
+    .metric-value {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #8cc63f;
+      /* vibrant lime green */
+      margin-bottom: 0.75rem;
+      line-height: 1.1;
+    }
+
+    .metric-desc {
+      font-size: 0.8rem;
+      color: #777777;
+      font-weight: 400;
+    }
+
+    .quote {
+      font-family: 'DM Sans', sans-serif;
+      font-style: italic;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #555555;
+      padding: 1rem 2.5rem;
+      margin: 1.5rem 0;
+      position: relative;
+      background: #fafafa;
+      border-left: 4px solid #8cc63f;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .quote::before {
+      content: "“";
+      font-family: Georgia, serif;
+      font-size: 3.5rem;
+      position: absolute;
+      left: 0.75rem;
+      top: -0.25rem;
+      color: #8cc63f;
+      line-height: 1;
+      opacity: 0.4;
+    }
+
+    .quote::after {
+      content: "”";
+      font-family: Georgia, serif;
+      font-size: 3.5rem;
+      position: absolute;
+      right: 0.75rem;
+      bottom: -1rem;
+      color: #8cc63f;
+      line-height: 1;
+      opacity: 0.4;
+    }
+
+    body.dark-mode .quote {
+      background: #1e1e1e;
+      color: #cccccc;
+    }
+
+    body.dark-mode .metric-card {
+      background: #1e1e1e;
+      border-color: #333333;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    body.dark-mode .metric-card:hover {
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    body.dark-mode .metric-title {
+      color: #aaaaaa;
+    }
+
+    body.dark-mode .metric-desc {
+      color: #888888;
+    }
+
+    hr.point-line {
+      border: none !important;
+      border-top: 3px dotted rgba(0, 0, 0, 0.15) !important;
+      background-color: transparent !important;
+      height: 0 !important;
+      opacity: 1 !important;
+      margin: 2.5rem 0 !important;
+    }
+
+    body.dark-mode hr.point-line {
+      border-top: 3px dotted rgba(255, 255, 255, 0.25) !important;
+      background-color: transparent !important;
+    }
+
+    /* Measuring it Section Styles */
+    .item-header {
+      display: flex;
+      align-items: flex-end;
+      gap: 1.5rem;
+      margin-top: 3.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .item-header-num-wrapper {
+      line-height: 1.1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .item-header-label {
+      font-family: 'IBM Plex Mono', monospace !important;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: #888888;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+
+    .item-header-num {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #0f172a;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    .item-header-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 0;
+      line-height: 1.1;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    body.dark-mode .item-header-num,
+    body.dark-mode .item-header-title {
+      color: #ffffff !important;
+    }
+
+    .event-list {
+      margin-top: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .event-item {
+      padding: 1.25rem 0;
+      border-bottom: 1px dotted rgba(0, 0, 0, 0.12);
+    }
+
+    body.dark-mode .event-item {
+      border-bottom: 1px dotted rgba(255, 255, 255, 0.15);
+    }
+
+    .event-item:last-child {
+      border-bottom: none;
+    }
+
+    .event-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.5rem;
+    }
+
+    .event-name {
+      font-family: 'IBM Plex Mono', monospace !important;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #2d3748;
+    }
+
+    body.dark-mode .event-name {
+      color: #ffffff !important;
+    }
+
+    .event-meta {
+      font-family: 'IBM Plex Mono', monospace !important;
+      font-size: 0.8rem;
+      color: #718096;
+    }
+
+    body.dark-mode .event-meta {
+      color: #a0aec0 !important;
+    }
+
+    .event-desc {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.9rem;
+      color: #4a5568;
+      line-height: 1.6;
+    }
+
+    body.dark-mode .event-desc {
+      color: #a0aec0 !important;
+    }
+
+    @media (max-width: 576px) {
+      .event-header-row {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 0.25rem;
+      }
+
+      .event-meta {
+        font-size: 0.75rem;
+      }
+
+      .item-header {
+        align-items: flex-start !important;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
 </head>
- 
- <body>
+
+<body>
   <script>
     (function () {
       const savedTheme = localStorage.getItem('theme');
@@ -106,319 +359,573 @@
       </button>
     </nav>
   </div>
- 
-   <div class="container mw-700">
-     <div class="row">
-       <div class="col-12 mt-4">
-         <a href="../../" class="p-btn-back">
-            <span class="back-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
-            </span>
-            <span class="back-text">Back</span>
-          </a>
-         <h3 class="p-title mt-4">Boost User Acquisition with Better Onboarding</h3>
-         <hr>
-       </div>
+
+  <div class="container mw-700">
+    <div class="row">
+      <div class="col-12 mt-4">
+        <a href="../../" class="p-btn-back">
+          <span class="back-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-chevron-left">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </span>
+          <span class="back-text">Back</span>
+        </a>
+        <h3 class="p-title mt-4">Brand Add-on Deals</h3>
+        <hr>
+      </div>
     </div>
+  </div>
+  <div class="text-center">
+    <img src="../../assets/images/portfolio/brand_add_on_deals/00_background.jpg" class="img-fluid mt-5 mb-5"
+      alt="Background">
+  </div>
+
+  <!-- Start Role -->
+  <div class="container mw-700">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="p-portfolio p-4">
+          <b>Role:</b>Product Manager <br>
+          <b>Company:</b>HappyFresh <br>
+          <b>Platform:</b>iOS, Android <br>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <p class="p-portfolio p-4">
+          <b>Timeline:</b> 3-week build cycle <br>
+          <b>Status:</b> Delivered & Live 🟢<br>
+        </p>
+      </div>
     </div>
-       <div class="text-center">
-        <img src="../../assets/images/portfolio/onboarding/00 background.jpg" class="img-fluid mt-5 mb-5" alt="Background">
-      </div>
+    <hr>
+  </div>
 
-    <!-- Start Role -->
-    <div class="container mw-700">
-       <div class="row">
-        <div class="col-md-6">
+  <!-- End Role -->
+
+
+  <!-- Start View & PRD -->
+  <!-- <div class="container mw-700">
+    <div class="row">
+      <div class="col-md-6">
+        <a href="">View prototype</a>
+      </div>
+      <div class="col-md-6">
+        <a href="">View full PRD</a>
+      </div>
+    </div>
+    <hr>
+  </div> -->
+
+  <!-- End View Prototype -->
+
+  <!-- Start TLDR -->
+  <div class="container mw-700">
+    <div class="row">
+      <div class="col-12">
+        <p class="p-portfolio p-4 pb-0">
+          <b class="item-header-title">TL;DR</b><br>
+          Bringing a Purchase-with-Purchase (PwP) mechanic to HappyFresh's checkout, so a spend threshold turns into a
+          moment of delight instead of a wall.
+        </p>
+      </div>
+    </div>
+
+    <div class="row px-4 pb-4">
+      <p class="p-portfo"><b class="item-header-title">Results</b></p>
+      <div class="col-6 mb-3">
+        <div class="metric-card">
+          <div class="metric-title">GMV Contribution</div>
+          <div class="metric-value">+7%</div>
+          <div class="metric-desc">From total GMV per Month</div>
+        </div>
+      </div>
+      <div class="col-6 mb-3">
+        <div class="metric-card">
+          <div class="metric-title">Avg. Basket Size</div>
+          <div class="metric-value">+30K</div>
+          <div class="metric-desc">From Avg. BS per Month</div>
+        </div>
+      </div>
+      <div class="col-6 mb-3">
+        <div class="metric-card">
+          <div class="metric-title">CVR Rate</div>
+          <div class="metric-value">+3%</div>
+          <div class="metric-desc">Home to Checkout</div>
+        </div>
+      </div>
+      <div class="col-6  mb-3">
+        <div class="metric-card">
+          <div class="metric-title">Take-up Rate</div>
+          <div class="metric-value">+5%</div>
+          <div class="metric-desc">From GMV Orders</div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <!-- End TLDR -->
+
+
+  <!-- Start Background -->
+  <div class="container mw-700">
+    <div class="row">
+      <div class="col-12">
+        <p class="p-portfolio p-4">
+          <b class="item-header-title">Opportunity</b><br>
+          HappyFresh already had supermarket partners ready to fund Purchase-with-Purchase (PwP) deals — but the app had
+          no way to show these deals to shoppers. So shoppers never saw them, and partners never got the extra sales
+          they paid for.
+          Meanwhile, competitors already offered this exact feature at checkout. Every week we waited, we lost partner
+          budget, missed a chance to grow basket size, and fell further behind what shoppers already expected from a
+          grocery app.
+        </p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row">
+      <div class="col-12">
+        <p class="p-portfolio p-4">
+          <b class="item-header-title">Problem</b><br>
+          Shoppers rarely go looking for a Rp15,000 pack of biscuits. The urge to buy it has
+          to be manufactured — the way a checkout aisle in a physical store does it. Our
+          own 2023 research into impulse buying pointed at exactly why that's harder
+          online.
+        </p>
+
+        <p class="quote">
+          Offline stores trigger impulse purchases through sensory presence. Online shopping keeps
+          people conscious of their running total — the environment has to do the nudging instead.
+        </p>
+
+        <p class="p-portfolio">The product question wasn't "will people want this item" — it was "how do we recreate
+          the
+          checkout-aisle moment inside a cart screen, without
+          turning it into a distraction from the primary task of finishing a grocery order."</p>
+      </div>
+    </div>
+    <hr>
+
+
+    <div class="row px-4 pb-4 mt-5">
+      <p class="p-portfo"><b class="item-header-title">Goals</b></p>
+      <div class="col-6 mb-3">
+        <div class="metric-card">
+          <div class="metric-title" style="text-align:center!important">Increase GMV</div>
+          <div class="metric-desc">New incremental order value by partner-funded promotions</div>
+        </div>
+      </div>
+      <div class="col-6 mb-3">
+        <div class="metric-card">
+          <div class="metric-title" style="text-align:center!important">Increase Avg. Basket Size</div>
+          <div class="metric-desc">By showing impulsive items</div>
+        </div>
+      </div>
+      <div class="col-6 mb-3">
+        <div class="metric-card">
+          <div class="metric-title" style="text-align:center!important">Increase CVR</div>
+          <div class="metric-desc">Increase Conversion Rate from Home to Checkout</div>
+        </div>
+      </div>
+      <div class="col-6 mb-3">
+        <div class="metric-card">
+          <div class="metric-title" style="text-align:center!important">Enhance Value Perception</div>
+          <div class="metric-desc">Visible discounts reinforce that HappyFresh is worth shopping on</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <p class="p-portfolio p-4">
+          <b class="item-header-title">What shaped the design</b><br>
+          Before touching a wireframe, I pulled three behavioral patterns out of our impulse-
+          buying research to use as design constraints — not just inspiration.
+        </p>
+
+        <div class="col-12 mb-3">
+          <div class="metric-card">
+            <div>Insight A</div>
+            <div class="metric-title" style="text-align:center!important">No urgency ≠ no interest</div>
+            <div class="metric-desc">Shoppers won't proactively search for a
+              "someday" item — but they'll grab it the
+              moment it's surfaced at the right point in
+              their flow. The environment has to do the
+              asking.</div>
+          </div>
+        </div>
+
+        <div class="col-12 mb-3">
+          <div class="metric-card">
+            <div>Insight B</div>
+            <div class="metric-title" style="text-align:center!important">Familiarity drives add-to-cart</div>
+            <div class="metric-desc">Items a shopper has already used or
+              bought before convert far better than novel
+              ones — recognition removes the evaluation
+              step entirely.</div>
+          </div>
+        </div>
+
+        <div class="col-12 mb-3">
+          <div class="metric-card">
+            <div>Insight C</div>
+            <div class="metric-title" style="text-align:center!important">Steep discounts offset low
+              perceived value</div>
+            <div class="metric-desc">A large enough percentage off makes even
+              a "not worth it" item feel worth grabbing —
+              the discount becomes the value proposition.</div>
+          </div>
+        </div>
+        <p class="p-portfolio p-4">
+          <b>Sizing the opportunity, before building anything</b><br>
+          I framed the opportunity as a funnel so we could estimate impact before committing
+          engineering time, and so the same funnel could later become our measurement plan:
+
+        </p>
+        <div class="col-12 mb-3">
+          <div class="metric-card">
+            <div class="metric-title" style="text-align:center!important">Step 1 - Basket Penetration</div>
+            <div class="metric-desc">How many eligible SKUs do partners supermarkets offer, and what's their basket
+              penetration?</div>
+          </div>
+        </div>
+        <div class="col-12 mb-3">
+          <div class="metric-card">
+            <div class="metric-title" style="text-align:center!important">Step 2 - Eligiblity rate</div>
+            <div class="metric-desc">What share of baskets naturally cross the minimum-purchase threshold?</div>
+          </div>
+        </div>
+        <div class="col-12 mb-3">
+          <div class="metric-card">
+            <div class="metric-title" style="text-align:center!important">Step3 - Take up Rate</div>
+            <div class="metric-desc">Customers who unlock the offer, how many actually add the item?</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 px-4 pb-4">
+        <p class="p-portfolio p-4">
+          <b class="item-header-title">The Solution</b><br>
+          A Tebus Murah section, placed inside the cart screen — above "Just for You" —
+          where shoppers land right before checkout.
+          Unlike the app's usual product listing, this section scrolls
+          horizontally, borrowing the visual grammar of an end-of-aisle
+          display: present, noticeable, but never blocking the shopper's
+          primary task of reviewing their basket.
+
+        </p>
+
+        <p class="quote">
+          <b>Design rule</b><br>
+          The section should be impossible to miss but easy to ignore — it
+          earns attention through placement and pricing, not through
+          interrupting the checkout flow with a modal or forced step.
+        </p>
+        <p class="p-portfolio">
+          Every promo card needed to clearly communicate why a shopper could or couldn't
+          claim it yet — so I designed three explicit states:
+        </p>
+
+        <div class="row">
+          <div class="col-12">
+            <img src="../../assets/images/portfolio/brand_add_on_deals/card_locked.png" class="img-fluid" alt="">
             <p class="p-portfolio p-4">
-                <b>Role:</b>Product  Design, Research & Visual Design <br>
-                <b>Platform:</b>iOS, Android <br>
-              </p>
-        </div>
-        <div class="col-md-6">
+              "Add" is visibly disabled — the min-purchase label
+              tells the shopper exactly what closes the gap.
+            </p>
+          </div>
+          <div class="col-12">
+            <img src="../../assets/images/portfolio/brand_add_on_deals/card_unlocked.png" class="img-fluid" alt="">
             <p class="p-portfolio p-4">
-                <b>Timeline:</b> 2 Months <br>
-                <b>Metric:</b> Increase number of user Acquisition & Activation<br>
-              </p>
-        </div>
-       </div>
-       <hr>
-     </div>
-       <!-- End Role -->
-
-       <!-- Start Background -->
-     <div class="container mw-700">
-      <div class="row">
-        <div class="col-12">
-          <p class="p-portfolio p-4">
-             <b>Background</b><br>
-             Since January 2024, there are 28% of users who have installed HF app but never ordered, and 40% of these users who landed on cart screen haven't signed up yet .Looking at step-by-step conversions in the last 30 days, more than 50% of new users who go through the onboarding don't add any product to the cart within a day after app install. Among those who have items on their cart - at which stage they're required to sign up, over 70% don't sign up so they can't proceed to checkout.Based on competitor benchmarking and past research/experiments, we've created UX hypotheses on these funnels. By improving conversions through better UX up to signup, we hope to eventually increase number of users becoming customers through completion of their first order.
-          </p>
-        </div>
-      </div>
-      <hr>
-     </div>
-       <!-- End Background -->
-
-<!-- Start -->
-    <div class="container mw-700">
-      <div class="row">
-        <div class="col-12">
-          <p class="p-portfolio p-4">
-            <b>Synthesis the problem</b><br>
-           </p>
-        </div>
-      </div>
-     </div>
-<!-- End -->
-
-<!-- Start -->
-    <div class="">
-      <div class="row">
-           <div class="text-center">
-            <img src="../../assets/images/portfolio/onboarding/01 Synthesis .jpg" class="img-fluid mt-5 mb-5" alt="Synthesis">
+              <b>Card unlocked</b><br>
+              Once the basket crosses the threshold, "Add"
+              activates automatically — no extra tap, no page
+              reload.
+            </p>
           </div>
-      </div>
-     </div>
-<!-- End -->
-
-<!-- Start -->
-    <div class="container mw-700">
-      <div class="row">
-        <div class="col-12">
-          <p class=" p-portfolio p-4 mb-5">
-              <b>Pain Point & Hypothesis</b><br>
-                <b>1. Journey to Login/Signup is too long from Home Screen to Auth screen, and making user drop on cart screen when required to sign up.</b><br>
-                67% drop during shopping journey and 73% drop while in cart screen before they need to proceed to checkout
-              </p>
+          <div class="col-12">
+            <img src="../../assets/images/portfolio/brand_add_on_deals/card_mpq.png" class="img-fluid" alt="">
+            <p class="p-portfolio p-4">
+              <b>Card Maximum Product Quantity</b><br>
+              The stepper caps out instead of failing silently —
+              protecting margin on promo-funded SKUs without a
+              confusing error.
+            </p>
+          </div>
         </div>
-      </div>
-     </div>
-<!-- End -->
 
-<!-- Start -->
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="text-center">
-              <img src="../../assets/images/portfolio/onboarding/02 drop.png" class="img-fluid mb-5" alt="Mixpanel Drop">
-            </div><br>
-            <div class="text-center">
-                <img src="../../assets/images/portfolio/onboarding/03 flow.png" class="img-fluid mb-5" alt="Flow Login">
+        <div class="row">
+          <div class="col-12">
+            <p class="p-portfolio item-header-title mb-4"><b>Key decisions & trade-offs</b></p>
+
+            <div class="col-12 mb-3">
+              <div class="metric-card">
+                <div class="metric-title" style="text-align:center!important">Two intake paths for promotions</div>
+                <div class="metric-desc">Built two onboarding flows instead of one: an internal-fund path
+                  (Marketing sets rules directly in Spree) and a supermarket-partner path
+                  (Content team uploads partner SKUs in Sirius, tagged as PnQ). This let
+                  non-engineering teams launch or swap promotions without a dev ticket
+                  every time.
+                </div>
+
               </div>
-        </div>
-      </div>
-     </div>
-<!-- End -->
-
-<!-- Start -->
-    <div class="container mw-700">
-      <div class="row">
-        <div class="col-12">
-         <hr>
-          <p class="mt-5 p-portfolio p-4">
-            <b>2. Signup Screen has many things to do that making user drop to signed up.</b><br>
-            By analyzing the drop-off during sign-up/login, we hypothesize that having too many unnecessary fields in the sign-up form is a contributing factor. We believe simplifying the sign-up experience will lead to improved conversion rates.
-            </p>
-        </div>
-      </div>
-     </div>
-<!-- End -->
-
-<!-- Start -->
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="text-center">
-              <img src="../../assets/images/portfolio/onboarding/04 flow login signup.jpg" class="img-fluid mb-5" alt="Flow login">
             </div>
-        </div>
-      </div>
-     </div>
-<!-- End -->
-
-<!-- Start -->
-    <div class="container mw-700">
-      <div class="row">
-        <div class="col-12">
-         <hr>
-          <p class="mt-5 p-portfolio p-4">
-            <b>3. Onboarding a bit too long / irrelevant content.</b><br>
-            The current onboarding to Global Home 84%. onboarding already has all the relevant messages we need to convey to users, but users need to experience it for themselves once they're in the app.
-            Onboarding rate falls to 52% it’s often a sign that there may be issues with onboarding complexity, unclear value propositions, or lack of engaging incentives.</p>
-        </div>
-      </div>
-     </div>
-<!-- End -->
-
-<!-- Start -->
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="text-center">
-                <img src="../../assets/images/portfolio/onboarding/05 drop onboarding.jpg" class="img-fluid mb-5" alt="Flow Onboarding">
-            </div>
-        </div>
-      </div>
-     </div>
-<!-- End -->
-
-<!-- Start -->
-    <div class="container mw-700">
-      <div class="row">
-        <div class="col-12">
-         <hr>
-          <p class="mt-5 p-portfolio p-4">
-            <b>Articulating Design Decision</b></p>
-        </div>
-      </div>
-     </div>
-<!-- End -->
-
- <!-- Start -->
-    <div class="">
-      <div class="row">
-           <div class="text-center">
-            <img src="../../assets/images/portfolio/onboarding/06 articulate brainstorm.jpg" class="img-fluid mb-5" alt="Articulating">
-          </div>
-      </div>
-     </div>
-<!-- End -->
-
-
-<!-- Start -->
-    <div class="container mw-700">
-      <div class="row">
-        <div class="col-12">
-           <p class="mt-5 p-portfolio p-4">
-            <b>Proposed Solution</b><br>
-            <b>1. Phone Number as unique identifier</b><br>
-            ⭐ Observation<br>
-            Phone numbers serve as a unique identifier, making them user-friendly for a mass audience, including those who aren’t tech-savvy. Most communication apps rely on phone numbers as their primary unique identifier.<br>
-
-            🔮 Key security benefit<br>
-            Phone numbers are harder to steal compared to emails. When someone’s phone is stolen, they can quickly take action. That’s why many consumer apps today are using phone numbers as their preferred authentication method.<br>
-
-            👋 Familiarity<br>
-            Even familiar apps, whether direct or indirect competitors, are using phone numbers as their go-to authentication method.
-            </p>
-        </div>
-      </div>
-     </div>
-<!-- End -->
-
- <!-- Start -->
-    <div class="">
-      <div class="row">
-           <div class="text-center">
-              <img src="../../assets/images/portfolio/onboarding/07 lofi.png" class="img-fluid" alt="Lofi">
-              <p class="p-portfolio text-center mb-5"><i>Low-Fidelity</i></p><br>
-            </div>
-            <div class="text-center">
-                <img src="../../assets/images/portfolio/onboarding/07 hifi.png" class="img-fluid" alt="Hifi">
-                <p class="p-portfolio text-center mb-5"><i>High Level Design</i></p><br>
-                <!-- <img src="../../assets/images/portfolio/onboarding/07 hifi3.png" class="img-fluid" alt="Hifi">
-                <p class="p-portfolio text-center mb-5"><i>Big Picture</i></p><br> -->
+            <div class="col-12 mb-3">
+              <div class="metric-card">
+                <div class="metric-title" style="text-align:center!important">Designing around an imprecise SKU-price
+                  mapping</div>
+                <div class="metric-desc">Ops-side dummy SKU codes (e.g. representing "~Rp10,000") didn't map to exact
+                  prices the way engineering's systems expected. Rather than block launch on a full data-model fix, I
+                  scoped the experience to tolerate an approximate mapping and flagged the precision gap as a
+                  fast-follow.</div>
               </div>
-      </div>
-     </div>
-<!-- End -->
+            </div>
+            <div class="col-12 mb-3">
+              <div class="metric-card">
+                <div class="metric-title" style="text-align:center!important">Real-time re-validation, not one-time
+                  eligibility</div>
+                <div class="metric-desc">If a shopper removes an item and drops below the minimum basket
+                  size, the promo item is automatically dropped from the cart — eligibility
+                  is re-checked continuously, not just at the moment it was added.</div>
+              </div>
+            </div>
+            <div class="col-12 mb-3">
+              <div class="metric-card">
+                <div class="metric-title" style="text-align:center!important">Fixing a defect we found along the way
+                </div>
+                <div class="metric-desc">QA surfaced a null-pointer crash risk on Android's cart screen
+                  specifically for free/promo products. Rather than defer it, we folded the
+                  fix into this release's scope since it shared the same code path.</div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-<!-- Start -->
-    <div class="container mw-700">
-      <div class="row">
-        <hr>
-        <div class="col-12">
-           <p class="mt-5 p-portfolio p-4">
-           <b>Simplified Sign up Form</b><br>
-            We believe simplicity is key to a smooth onboarding experience
+        <div class="row">
+          <div class="col-12">
+            <p class="p-portfolio">I split the build across two parallel task forces so the timeline wasn't gated by a
+              single
+              team's capacity — coordinating scope and dependencies between them as PM.</p>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="metric-card">
+              <div class="metric-title" style="text-align:center!important">Front End Task Force</div>
+              <div class="metric-desc" style="text-align: left;">
+                <ul style="margin: 0; padding-left: 1.2rem;">
+                  <li>New horizontal card format for the cart screen</li>
+                  <li>Built the Tebus Murah section & its three eligibility states</li>
+                  <li>Real-time validation of promo items against basket changes</li>
+                  <li>Android null-pointer fix for free products</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="metric-card">
+              <div class="metric-title" style="text-align:center!important">Backend Task Force</div>
+              <div class="metric-desc" style="text-align: left;">
+                <ul style="margin: 0; padding-left: 1.2rem;">
+                  <li>Sirius admin tooling for Content team to upload partner PnQ items</li>
+                  <li>Spree tooling for Marketing-funded promotions</li>
+                  <li>Fetch API for Tebus Murah items + promotion-ID based claim logic</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <p class="p-portfolio"><b>Timeline</b></p>
+
+          </div>
+          <div class="col-4">
+            <div class="metric-card">
+              <div class="metric-title" style="text-align:center!important">Development</div>
+              <div class="metric-desc" style="text-align: left;"> Week 21
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-4">
+            <div class="metric-card">
+              <div class="metric-title" style="text-align:center!important">Testing</div>
+              <div class="metric-desc" style="text-align: left;"> Week 22
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-4">
+            <div class="metric-card">
+              <div class="metric-title" style="text-align:center!important">Release</div>
+              <div class="metric-desc" style="text-align: left;"> Week 23
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Measuring it Section Start -->
+        <div class="row mt-5">
+          <div class="col-12">
+            <div class="item-header">
+              <h3 class="item-header-title">Measuring it</h3>
+            </div>
+
+            <p class="p-portfolio mb-4">
+              I worked with our analytics partner to define a tracking taxonomy that mapped directly
+              back to the funnel from Item 04 — so the eligibility-rate and take-up-rate questions
+              could actually be answered post-launch, not just estimated.
             </p>
+
+            <div class="event-list">
+              <div class="event-item">
+                <div class="event-header-row">
+                  <div class="event-name">Product Added</div>
+                  <div class="event-meta">cart · pwp</div>
+                </div>
+                <div class="event-desc">
+                  Fires when a shopper adds a Tebus Murah item, tagged with promotion type and trigger source.
+                </div>
+              </div>
+
+              <div class="event-item">
+                <div class="event-header-row">
+                  <div class="event-name">Cart Viewed</div>
+                  <div class="event-meta">eligible vs. applied</div>
+                </div>
+                <div class="event-desc">
+                  Captures both eligible and applied promo product IDs — the raw input for eligibility & take-up rate.
+                </div>
+              </div>
+
+              <div class="event-item">
+                <div class="event-header-row">
+                  <div class="event-name">Alert Maximum Promo Quantity</div>
+                  <div class="event-meta">product_id</div>
+                </div>
+                <div class="event-desc">
+                  Signals when a shopper hits the quota cap — useful for tuning quota sizing over time.
+                </div>
+              </div>
+
+              <div class="event-item">
+                <div class="event-header-row">
+                  <div class="event-name">PWP Promotion Applied</div>
+                  <div class="event-meta">new event</div>
+                </div>
+                <div class="event-desc">
+                  Ties the applied promo to supplier, store, and minimum-purchase threshold — enabling store &
+                  supplier-level promo performance reporting.
+                </div>
+              </div>
+
+              <div class="event-item">
+                <div class="event-header-row">
+                  <div class="event-name">Order Completed</div>
+                  <div class="event-meta">applied_pwp_product_id</div>
+                </div>
+                <div class="event-desc">
+                  Confirms whether the promo item actually survived to checkout.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Measuring it Section End -->
+
+      </div>
+
+    </div>
+
+    <div class="row px-4 pb-4">
+      <p class="p-portfo"><b class="item-header-title">Results</b></p>
+      <div class="col-6 mb-3">
+        <div class="metric-card">
+          <div class="metric-title">GMV Contribution</div>
+          <div class="metric-value">+7%</div>
+          <div class="metric-desc">From total GMV per Month</div>
         </div>
       </div>
-     </div>
-<!-- End -->
+      <div class="col-6 mb-3">
+        <div class="metric-card">
+          <div class="metric-title">Avg. Basket Size</div>
+          <div class="metric-value">+30K</div>
+          <div class="metric-desc">From Avg. BS per Month</div>
+        </div>
+      </div>
+      <div class="col-6 mb-3">
+        <div class="metric-card">
+          <div class="metric-title">CVR Rate</div>
+          <div class="metric-value">+3%</div>
+          <div class="metric-desc">Home to Checkout</div>
+        </div>
+      </div>
+      <div class="col-6  mb-3">
+        <div class="metric-card">
+          <div class="metric-title">Take-up Rate</div>
+          <div class="metric-value">+5%</div>
+          <div class="metric-desc">From GMV Orders</div>
+        </div>
+      </div>
+    </div>
 
- <!-- Start -->
-    <div class="">
-      <div class="row">
-            <div class="text-center">
-              <img src="../../assets/images/portfolio/onboarding/08 form.png" class="img-fluid mb-5" alt="Articulating">
+    <div class="row">
+      <div class="col-12">
+        <p class="p-portfolio item-header-title mb-4"><b>What's Next</b></p>
+
+        <div class="col-12 mb-3">
+          <div class="metric-card">
+            <div class="metric-title" style="text-align:center!important">Personalize the line-up</div>
+            <div class="metric-desc">Every shopper currently sees the same partner SKUs. Ranking Tebus Murah items by
+              prior purchase history
+              should lift take-up rate further,
             </div>
-      </div>
-     </div>
-<!-- End -->
 
-<!-- Start -->
-    <div class="container mw-700">
-      <div class="row">
-        <hr>
-          <div class="col-12 mb-4">
-            <p class=" p-portfolio p-4">
-            <b>Onboarding Process</b><br>
-            🚀 Enhance User Acq Speed<br>
-            By reducing and simplifying on boarding process, we can help users experience value faster, leading to higher acquisition rates and greater long-term engagement.<br>
-            🌠 Align Onboarding with relevant content.<br>
-            Tailoring the onboarding experience with content that directly addresses user needs is a key, especially highlight USP of HF’s strength (personal shopper).<br>
           </div>
-      </div>
-     </div>
-<!-- End -->
-
- <!-- Start -->
-    <div class="">
-      <div class="row">
-           <div class="text-center">
-              <img src="../../assets/images/portfolio/onboarding/09 onboarding.png" class="img-fluid mb-5" alt="Articulating">
-            </div>
-      </div>
-     </div>
-<!-- End -->
-
-<!-- Start -->
-    <div class="container mw-700">
-      <div class="row">
-        <hr>
-          <div class="col-12 mb-4">
-            <p class=" p-portfolio p-4">
-            <b>Results:</b><br>
-                Update 20 February:
-                We've been doing experiment start from 13 February for this feature, and looking at the data below seems average 158% improvement in the way customer logged in after fresh download at HappyFresh
-              </p>
+        </div>
+        <div class="col-12 mb-3">
+          <div class="metric-card">
+            <div class="metric-title" style="text-align:center!important">Close the SKU-price gap properly</div>
+            <div class="metric-desc">Replace the approximate ops-to-tech price mapping with a single source of truth,
+              removing a
+              fragility we accepted to hit the launch date.</div>
           </div>
-      </div>
-     </div>
-<!-- End -->
-
- <!-- Start -->
-    <div class="">
-      <div class="row">
-           <div class="text-center">
-               <img src="../../assets/images/portfolio/onboarding/10 ab test.png" class="img-fluid mb-5" alt="Articulating">
-            </div>
-      </div>
-     </div>
-<!-- End -->
-
-<!-- Start -->
-    <div class="container mw-700">
-      <div class="row">
-        <hr>
-          <div class="col-12 mb-4">
-            <p class=" p-portfolio p-4">
-            <b>Lesson Learned:</b><br>
-                ✨Keep bear in mind to backward compatibility towards old customer who familiar with previous login with email/SSO.<br>
-                ✨Cost of infrastructure because of OTP is big, how might we can reduce cost?<br>
-                ✨Technology depedency of OTP is large, how might we can find another channel to keep still logged in, if there’s issue from third party?
-            </p>
+        </div>
+        <div class="col-12 mb-3">
+          <div class="metric-card">
+            <div class="metric-title" style="text-align:center!important">Support tiered thresholds</div>
+            <div class="metric-desc">Let a single promo unlock better rewards at higher basket sizes, instead of one
+              flat minimum-purchase
+              gate.</div>
           </div>
+        </div>
       </div>
-     </div>
-<!-- End -->
+    </div>
 
 
-<!-- Other Project Start -->
- <div class="container mw-700">
+  </div>
+  <hr>
+
+
+
+  <!-- ---------- down bottom in here ---------- -->
+
+
+
+  <!-- Other Project Start -->
+  <div class="container mw-700">
     <div class="col-12 mb-4 mt-5">
-      <hr>
     </div>
     <div class="section-experience mb-5 mt-5">
       <h3 id="title" class="m-featured-work">Other Project</h3>
@@ -467,31 +974,34 @@
         </a>
       </div>
     </div>
-   </div>
-   <!-- Other Project End -->
-    
-     <!-- Footer Start-->
-    <div class="container mt-5 mb-2 mw-700" style="margin-top: 6em!important">
-      <div class="row">
-        <div class="col-12 mb-4">
-          <hr>
-        </div>
+  </div>
+  <!-- Other Project End -->
 
+  <!-- Footer Start-->
+  <div class="container mt-5 mb-2 mw-700" style="margin-top: 6em!important">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <hr>
       </div>
-      <div class="row">
-        <div class="col-md-12 footer mb-4">
-          <p class="footer-text">© 2025  Fadly&nbsp;&nbsp;&nbsp; ✧ &nbsp;&nbsp;&nbsp;
-            <a href="mailto:fadlyansy@gmail.com.com" target="_blank" class="link-footer">fadlyansy@gmail.com</a>&nbsp;&nbsp;&nbsp; ✧ &nbsp;&nbsp;&nbsp;
-            <a href="https://linkedin.com/in/fadlyansy" target="_blank" class="link-footer">LinkedIn</a>&nbsp;&nbsp;&nbsp; ✧ &nbsp;&nbsp;&nbsp;
-            <a href="https://dribbble.com/fadlyansy" target="_blank" class="link-footer">Dribbble</a>&nbsp;&nbsp;&nbsp; ✧ &nbsp;&nbsp;&nbsp;
-            <a href="https://twitter.com/fadlyansyahh/" target="_blank" class="link-footer">X</a>
-        </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-12 footer mb-4">
+        <p class="footer-text">© 2025 Fadly&nbsp;&nbsp;&nbsp; ✧ &nbsp;&nbsp;&nbsp;
+          <a href="mailto:fadlyansy@gmail.com.com" target="_blank"
+            class="link-footer">fadlyansy@gmail.com</a>&nbsp;&nbsp;&nbsp; ✧ &nbsp;&nbsp;&nbsp;
+          <a href="https://linkedin.com/in/fadlyansy" target="_blank" class="link-footer">LinkedIn</a>&nbsp;&nbsp;&nbsp;
+          ✧ &nbsp;&nbsp;&nbsp;
+          <a href="https://dribbble.com/fadlyansy" target="_blank" class="link-footer">Dribbble</a>&nbsp;&nbsp;&nbsp; ✧
+          &nbsp;&nbsp;&nbsp;
+          <a href="https://twitter.com/fadlyansyahh/" target="_blank" class="link-footer">X</a>
+      </div>
     </div>
   </div>
   <!-- Footer End -->
-   
-   <script src="assets/js/custom.js"></script>
-<!-- 
+
+  <script src="assets/js/custom.js"></script>
+  <!-- 
    <script
       src="../../assets/js/portfolio-gate.js"
       data-password="2025"
@@ -501,8 +1011,8 @@
       data-title="Protected Portfolio"
       data-note="Press ESC to cancel."
     ></script> -->
- 
+
   <script src="../../assets/js/header-behavior.js"></script>
 </body>
- 
- </html>
+
+</html>
