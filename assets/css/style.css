@@ -1131,3 +1131,9 @@ body.dark-mode .error-text {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Disabled Portfolio Card Styles (Coming Soon) */
+.portfolio-card-disabled,
+.portfolio-card-disabled * {
+  cursor: wait !important;
+}
